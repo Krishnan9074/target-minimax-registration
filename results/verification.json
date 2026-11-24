@@ -1,0 +1,102 @@
+[
+  {
+    "name": "T0 fiducial/target Jacobian (central differences)",
+    "pass": true,
+    "detail": "max relative error 1.78e-11"
+  },
+  {
+    "name": "L1 influence-reduction lemma (both directions)",
+    "pass": true,
+    "detail": "max residual 1.09e-11"
+  },
+  {
+    "name": "T2 exact k-sparse risk identity",
+    "pass": true,
+    "detail": "max relative disagreement vs. brute force 2.32e-10"
+  },
+  {
+    "name": "T2a k=1 reduces to max block spectral norm",
+    "pass": true,
+    "detail": "max absolute disagreement 1.33e-15"
+  },
+  {
+    "name": "T3 monotonicity and top-k sandwich bounds",
+    "pass": true,
+    "detail": "upper bound tightness ratio in [1.000, 1.358]"
+  },
+  {
+    "name": "P4a Gauss-Markov optimality of M_GLS under M A = G",
+    "pass": true,
+    "detail": "no random feasible point achieved lower variance"
+  },
+  {
+    "name": "P4 eta = 0 recovers Gauss-Markov exactly",
+    "pass": true,
+    "detail": "max relative deviation from M_GLS 3.90e-05"
+  },
+  {
+    "name": "T5 cutting-plane SOCP == direct SDP for k=1",
+    "pass": true,
+    "detail": "max relative value gap 1.02e-03"
+  },
+  {
+    "name": "T6 strong duality (nuclear-norm dual) for k=1",
+    "pass": true,
+    "detail": "max relative primal-dual gap 1.88e-03"
+  },
+  {
+    "name": "T7 estimator-independent lower bound holds",
+    "pass": true,
+    "detail": "achieved/bound ratio in [1.27, 3.70]"
+  },
+  {
+    "name": "P8 invariance to origin choice and frame rotation",
+    "pass": true,
+    "detail": "max relative change in optimal risk 2.70e-04"
+  },
+  {
+    "name": "P9 exact recovery of the noiseless clean transform",
+    "pass": true,
+    "detail": "max target error 3.35e-14 mm"
+  },
+  {
+    "name": "P10 linearisation remainder is O(rho^2)",
+    "pass": true,
+    "detail": "log-log slope 1.001 (1.0 expected); median error 4.6e-03 at rho = 0.5 mm"
+  },
+  {
+    "name": "T8 average-case risk closed form",
+    "pass": true,
+    "detail": "max relative disagreement vs. Monte Carlo 9.60e-03"
+  },
+  {
+    "name": "T9 average-case design collapses to Gauss-Markov",
+    "pass": true,
+    "detail": "max relative deviation from M_GLS 5.49e-16"
+  },
+  {
+    "name": "T10 nu_k unit ball is conv A(k,1)",
+    "pass": true,
+    "detail": "largest excess of a nu_k-feasible point over R_k 0.00e+00"
+  },
+  {
+    "name": "T11 scalar-loss limit is attained exactly",
+    "pass": true,
+    "detail": "max relative gap between design and limit 8.29e-08"
+  },
+  {
+    "name": "T12 ell-infinity target loss: limit attained",
+    "pass": true,
+    "detail": "max relative gap 1.35e-08"
+  },
+  {
+    "name": "T13 tightened limit dominates the counting bound",
+    "pass": true,
+    "detail": "slack: new 1.000-1.004 vs old 1.51-2.64"
+  },
+  {
+    "name": "T14 complementary slackness equalises the active set",
+    "pass": true,
+    "detail": "max relative spread on the active set 9.4e-04; inactive blocks never exceed it"
+  }
+]

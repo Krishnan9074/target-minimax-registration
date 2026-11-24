@@ -1,0 +1,1915 @@
+% Auto-generated from results/*.json by experiments/make_tables.py. Do not edit.
+\newcommand{\AblDenseTen}{1.10}
+\newcommand{\AblEtaInfCI}{[0.683, 0.774]}
+\newcommand{\AblEtaInfHi}{0.774}
+\newcommand{\AblEtaInfLo}{0.683}
+\newcommand{\AblEtaInfN}{24}
+\newcommand{\AblEtaInf}{0.725}
+\newcommand{\AblEtaTwoCI}{[0.688, 0.776]}
+\newcommand{\AblEtaTwoHi}{0.776}
+\newcommand{\AblEtaTwoLo}{0.688}
+\newcommand{\AblEtaTwoN}{24}
+\newcommand{\AblEtaTwo}{0.727}
+\newcommand{\AblFidOnFidCI}{[28\%, 32\%]}
+\newcommand{\AblFidOnFidHi}{32\%}
+\newcommand{\AblFidOnFidLo}{28\%}
+\newcommand{\AblFidOnFidN}{24}
+\newcommand{\AblFidOnFid}{30\%}
+\newcommand{\AblFidOnTgtCI}{[-5\%, 8\%]}
+\newcommand{\AblFidOnTgtHi}{8\%}
+\newcommand{\AblFidOnTgtLo}{-5\%}
+\newcommand{\AblFidOnTgtN}{24}
+\newcommand{\AblFidOnTgt}{1\%}
+\newcommand{\AblFidShareCI}{[-23\%, 29\%]}
+\newcommand{\AblFidShareHi}{29\%}
+\newcommand{\AblFidShareLo}{-23\%}
+\newcommand{\AblFidShareN}{24}
+\newcommand{\AblFidShare}{5\%}
+\newcommand{\AblFidTgtRatioCI}{[0.92, 1.05]}
+\newcommand{\AblFidTgtRatioHi}{1.05}
+\newcommand{\AblFidTgtRatioLo}{0.92}
+\newcommand{\AblFidTgtRatioN}{24}
+\newcommand{\AblFidTgtRatio}{0.99}
+\newcommand{\AblFidWorseFrac}{46\%}
+\newcommand{\AblManifoldDist}{0.24}
+\newcommand{\AblMismatchDone}{0.84}
+\newcommand{\AblMismatchDthree}{0.90}
+\newcommand{\AblMismatchDtwo}{0.83}
+\newcommand{\AblTgtOnTgtCI}{[22\%, 29\%]}
+\newcommand{\AblTgtOnTgtHi}{29\%}
+\newcommand{\AblTgtOnTgtLo}{22\%}
+\newcommand{\AblTgtOnTgtN}{24}
+\newcommand{\AblTgtOnTgt}{26\%}
+\newcommand{\AblTgtTgtRatioCI}{[0.71, 0.78]}
+\newcommand{\AblTgtTgtRatioHi}{0.78}
+\newcommand{\AblTgtTgtRatioLo}{0.71}
+\newcommand{\AblTgtTgtRatioN}{24}
+\newcommand{\AblTgtTgtRatio}{0.74}
+\newcommand{\AblTmrRedCI}{[22\%, 29\%]}
+\newcommand{\AblTmrRedHi}{29\%}
+\newcommand{\AblTmrRedLo}{22\%}
+\newcommand{\AblTmrRedN}{24}
+\newcommand{\AblTmrRed}{26\%}
+\newcommand{\AblVarInfCI}{[1.31, 1.52]}
+\newcommand{\AblVarInfHi}{1.52}
+\newcommand{\AblVarInfLo}{1.31}
+\newcommand{\AblVarInfN}{24}
+\newcommand{\AblVarInf}{1.41}
+\newcommand{\AblWlsRedCI}{[15\%, 21\%]}
+\newcommand{\AblWlsRedHi}{21\%}
+\newcommand{\AblWlsRedLo}{15\%}
+\newcommand{\AblWlsRedN}{24}
+\newcommand{\AblWlsRed}{17\%}
+\newcommand{\AblWlsShareCI}{[63\%, 77\%]}
+\newcommand{\AblWlsShareHi}{77\%}
+\newcommand{\AblWlsShareLo}{63\%}
+\newcommand{\AblWlsShareN}{24}
+\newcommand{\AblWlsShare}{67\%}
+\newcommand{\AdvGlsKOneCI}{[0.67, 0.85]}
+\newcommand{\AdvGlsKOneHi}{0.85}
+\newcommand{\AdvGlsKOneLo}{0.67}
+\newcommand{\AdvGlsKOneN}{8}
+\newcommand{\AdvGlsKOne}{0.76}
+\newcommand{\AdvGlsKTwoCI}{[1.07, 1.27]}
+\newcommand{\AdvGlsKTwoHi}{1.27}
+\newcommand{\AdvGlsKTwoLo}{1.07}
+\newcommand{\AdvGlsKTwoN}{8}
+\newcommand{\AdvGlsKTwo}{1.16}
+\newcommand{\AdvGncKOneCI}{[0.81, 1.02]}
+\newcommand{\AdvGncKOneHi}{1.02}
+\newcommand{\AdvGncKOneLo}{0.81}
+\newcommand{\AdvGncKOneN}{8}
+\newcommand{\AdvGncKOne}{0.91}
+\newcommand{\AdvGncKTwoCI}{[1.57, 2.38]}
+\newcommand{\AdvGncKTwoHi}{2.38}
+\newcommand{\AdvGncKTwoLo}{1.57}
+\newcommand{\AdvGncKTwoN}{8}
+\newcommand{\AdvGncKTwo}{1.95}
+\newcommand{\AdvHuberKOneCI}{[0.74, 0.84]}
+\newcommand{\AdvHuberKOneHi}{0.84}
+\newcommand{\AdvHuberKOneLo}{0.74}
+\newcommand{\AdvHuberKOneN}{8}
+\newcommand{\AdvHuberKOne}{0.79}
+\newcommand{\AdvHuberKTwoCI}{[1.24, 1.39]}
+\newcommand{\AdvHuberKTwoHi}{1.39}
+\newcommand{\AdvHuberKTwoLo}{1.24}
+\newcommand{\AdvHuberKTwoN}{8}
+\newcommand{\AdvHuberKTwo}{1.32}
+\newcommand{\AdvLsKOneCI}{[0.54, 0.64]}
+\newcommand{\AdvLsKOneHi}{0.64}
+\newcommand{\AdvLsKOneLo}{0.54}
+\newcommand{\AdvLsKOneN}{8}
+\newcommand{\AdvLsKOne}{0.58}
+\newcommand{\AdvLsKTwoCI}{[0.95, 1.08]}
+\newcommand{\AdvLsKTwoHi}{1.08}
+\newcommand{\AdvLsKTwoLo}{0.95}
+\newcommand{\AdvLsKTwoN}{8}
+\newcommand{\AdvLsKTwo}{1.00}
+\newcommand{\AdvRansacKOneCI}{[0.99, 1.42]}
+\newcommand{\AdvRansacKOneHi}{1.42}
+\newcommand{\AdvRansacKOneLo}{0.99}
+\newcommand{\AdvRansacKOneN}{8}
+\newcommand{\AdvRansacKOne}{1.20}
+\newcommand{\AdvRansacKTwoCI}{[2.08, 2.99]}
+\newcommand{\AdvRansacKTwoHi}{2.99}
+\newcommand{\AdvRansacKTwoLo}{2.08}
+\newcommand{\AdvRansacKTwoN}{8}
+\newcommand{\AdvRansacKTwo}{2.49}
+\newcommand{\AdvTmrTenKOneCI}{[0.45, 0.52]}
+\newcommand{\AdvTmrTenKOneHi}{0.52}
+\newcommand{\AdvTmrTenKOneLo}{0.45}
+\newcommand{\AdvTmrTenKOneN}{8}
+\newcommand{\AdvTmrTenKOne}{0.48}
+\newcommand{\AdvTmrTenKTwoCI}{[0.85, 0.99]}
+\newcommand{\AdvTmrTenKTwoHi}{0.99}
+\newcommand{\AdvTmrTenKTwoLo}{0.85}
+\newcommand{\AdvTmrTenKTwoN}{8}
+\newcommand{\AdvTmrTenKTwo}{0.91}
+\newcommand{\AdvTmrTwentyKOneCI}{[0.41, 0.49]}
+\newcommand{\AdvTmrTwentyKOneHi}{0.49}
+\newcommand{\AdvTmrTwentyKOneLo}{0.41}
+\newcommand{\AdvTmrTwentyKOneN}{8}
+\newcommand{\AdvTmrTwentyKOne}{0.44}
+\newcommand{\AdvTmrTwentyKTwoCI}{[0.81, 0.96]}
+\newcommand{\AdvTmrTwentyKTwoHi}{0.96}
+\newcommand{\AdvTmrTwentyKTwoLo}{0.81}
+\newcommand{\AdvTmrTwentyKTwoN}{8}
+\newcommand{\AdvTmrTwentyKTwo}{0.87}
+\newcommand{\AnisoAdvGlsAFiftySevenKOneCI}{[0.81, 1.21]}
+\newcommand{\AnisoAdvGlsAFiftySevenKOneHi}{1.21}
+\newcommand{\AnisoAdvGlsAFiftySevenKOneLo}{0.81}
+\newcommand{\AnisoAdvGlsAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvGlsAFiftySevenKOne}{0.99}
+\newcommand{\AnisoAdvGlsAFiftySevenKTwoCI}{[1.30, 1.87]}
+\newcommand{\AnisoAdvGlsAFiftySevenKTwoHi}{1.87}
+\newcommand{\AnisoAdvGlsAFiftySevenKTwoLo}{1.30}
+\newcommand{\AnisoAdvGlsAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvGlsAFiftySevenKTwo}{1.54}
+\newcommand{\AnisoAdvGlsAFourKOneCI}{[0.74, 1.01]}
+\newcommand{\AnisoAdvGlsAFourKOneHi}{1.01}
+\newcommand{\AnisoAdvGlsAFourKOneLo}{0.74}
+\newcommand{\AnisoAdvGlsAFourKOneN}{8}
+\newcommand{\AnisoAdvGlsAFourKOne}{0.87}
+\newcommand{\AnisoAdvGlsAFourKTwoCI}{[1.18, 1.53]}
+\newcommand{\AnisoAdvGlsAFourKTwoHi}{1.53}
+\newcommand{\AnisoAdvGlsAFourKTwoLo}{1.18}
+\newcommand{\AnisoAdvGlsAFourKTwoN}{8}
+\newcommand{\AnisoAdvGlsAFourKTwo}{1.34}
+\newcommand{\AnisoAdvGlsAOneKOneCI}{[0.67, 0.85]}
+\newcommand{\AnisoAdvGlsAOneKOneHi}{0.85}
+\newcommand{\AnisoAdvGlsAOneKOneLo}{0.67}
+\newcommand{\AnisoAdvGlsAOneKOneN}{8}
+\newcommand{\AnisoAdvGlsAOneKOne}{0.76}
+\newcommand{\AnisoAdvGlsAOneKTwoCI}{[1.07, 1.27]}
+\newcommand{\AnisoAdvGlsAOneKTwoHi}{1.27}
+\newcommand{\AnisoAdvGlsAOneKTwoLo}{1.07}
+\newcommand{\AnisoAdvGlsAOneKTwoN}{8}
+\newcommand{\AnisoAdvGlsAOneKTwo}{1.16}
+\newcommand{\AnisoAdvGlsASixteenKOneCI}{[0.79, 1.14]}
+\newcommand{\AnisoAdvGlsASixteenKOneHi}{1.14}
+\newcommand{\AnisoAdvGlsASixteenKOneLo}{0.79}
+\newcommand{\AnisoAdvGlsASixteenKOneN}{8}
+\newcommand{\AnisoAdvGlsASixteenKOne}{0.96}
+\newcommand{\AnisoAdvGlsASixteenKTwoCI}{[1.26, 1.78]}
+\newcommand{\AnisoAdvGlsASixteenKTwoHi}{1.78}
+\newcommand{\AnisoAdvGlsASixteenKTwoLo}{1.26}
+\newcommand{\AnisoAdvGlsASixteenKTwoN}{8}
+\newcommand{\AnisoAdvGlsASixteenKTwo}{1.49}
+\newcommand{\AnisoAdvGncAFiftySevenKOneCI}{[0.71, 1.10]}
+\newcommand{\AnisoAdvGncAFiftySevenKOneHi}{1.10}
+\newcommand{\AnisoAdvGncAFiftySevenKOneLo}{0.71}
+\newcommand{\AnisoAdvGncAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvGncAFiftySevenKOne}{0.88}
+\newcommand{\AnisoAdvGncAFiftySevenKTwoCI}{[1.38, 1.98]}
+\newcommand{\AnisoAdvGncAFiftySevenKTwoHi}{1.98}
+\newcommand{\AnisoAdvGncAFiftySevenKTwoLo}{1.38}
+\newcommand{\AnisoAdvGncAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvGncAFiftySevenKTwo}{1.66}
+\newcommand{\AnisoAdvGncAFourKOneCI}{[0.78, 1.13]}
+\newcommand{\AnisoAdvGncAFourKOneHi}{1.13}
+\newcommand{\AnisoAdvGncAFourKOneLo}{0.78}
+\newcommand{\AnisoAdvGncAFourKOneN}{8}
+\newcommand{\AnisoAdvGncAFourKOne}{0.94}
+\newcommand{\AnisoAdvGncAFourKTwoCI}{[1.59, 2.19]}
+\newcommand{\AnisoAdvGncAFourKTwoHi}{2.19}
+\newcommand{\AnisoAdvGncAFourKTwoLo}{1.59}
+\newcommand{\AnisoAdvGncAFourKTwoN}{8}
+\newcommand{\AnisoAdvGncAFourKTwo}{1.88}
+\newcommand{\AnisoAdvGncAOneKOneCI}{[0.77, 1.00]}
+\newcommand{\AnisoAdvGncAOneKOneHi}{1.00}
+\newcommand{\AnisoAdvGncAOneKOneLo}{0.77}
+\newcommand{\AnisoAdvGncAOneKOneN}{8}
+\newcommand{\AnisoAdvGncAOneKOne}{0.88}
+\newcommand{\AnisoAdvGncAOneKTwoCI}{[1.45, 1.87]}
+\newcommand{\AnisoAdvGncAOneKTwoHi}{1.87}
+\newcommand{\AnisoAdvGncAOneKTwoLo}{1.45}
+\newcommand{\AnisoAdvGncAOneKTwoN}{8}
+\newcommand{\AnisoAdvGncAOneKTwo}{1.66}
+\newcommand{\AnisoAdvGncASixteenKOneCI}{[0.65, 1.04]}
+\newcommand{\AnisoAdvGncASixteenKOneHi}{1.04}
+\newcommand{\AnisoAdvGncASixteenKOneLo}{0.65}
+\newcommand{\AnisoAdvGncASixteenKOneN}{8}
+\newcommand{\AnisoAdvGncASixteenKOne}{0.81}
+\newcommand{\AnisoAdvGncASixteenKTwoCI}{[1.39, 2.08]}
+\newcommand{\AnisoAdvGncASixteenKTwoHi}{2.08}
+\newcommand{\AnisoAdvGncASixteenKTwoLo}{1.39}
+\newcommand{\AnisoAdvGncASixteenKTwoN}{8}
+\newcommand{\AnisoAdvGncASixteenKTwo}{1.71}
+\newcommand{\AnisoAdvHuberAFiftySevenKOneCI}{[0.74, 0.84]}
+\newcommand{\AnisoAdvHuberAFiftySevenKOneHi}{0.84}
+\newcommand{\AnisoAdvHuberAFiftySevenKOneLo}{0.74}
+\newcommand{\AnisoAdvHuberAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvHuberAFiftySevenKOne}{0.79}
+\newcommand{\AnisoAdvHuberAFiftySevenKTwoCI}{[1.19, 1.37]}
+\newcommand{\AnisoAdvHuberAFiftySevenKTwoHi}{1.37}
+\newcommand{\AnisoAdvHuberAFiftySevenKTwoLo}{1.19}
+\newcommand{\AnisoAdvHuberAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvHuberAFiftySevenKTwo}{1.28}
+\newcommand{\AnisoAdvHuberAFourKOneCI}{[0.75, 0.92]}
+\newcommand{\AnisoAdvHuberAFourKOneHi}{0.92}
+\newcommand{\AnisoAdvHuberAFourKOneLo}{0.75}
+\newcommand{\AnisoAdvHuberAFourKOneN}{8}
+\newcommand{\AnisoAdvHuberAFourKOne}{0.84}
+\newcommand{\AnisoAdvHuberAFourKTwoCI}{[1.23, 1.40]}
+\newcommand{\AnisoAdvHuberAFourKTwoHi}{1.40}
+\newcommand{\AnisoAdvHuberAFourKTwoLo}{1.23}
+\newcommand{\AnisoAdvHuberAFourKTwoN}{8}
+\newcommand{\AnisoAdvHuberAFourKTwo}{1.32}
+\newcommand{\AnisoAdvHuberAOneKOneCI}{[0.75, 0.82]}
+\newcommand{\AnisoAdvHuberAOneKOneHi}{0.82}
+\newcommand{\AnisoAdvHuberAOneKOneLo}{0.75}
+\newcommand{\AnisoAdvHuberAOneKOneN}{8}
+\newcommand{\AnisoAdvHuberAOneKOne}{0.79}
+\newcommand{\AnisoAdvHuberAOneKTwoCI}{[1.17, 1.38]}
+\newcommand{\AnisoAdvHuberAOneKTwoHi}{1.38}
+\newcommand{\AnisoAdvHuberAOneKTwoLo}{1.17}
+\newcommand{\AnisoAdvHuberAOneKTwoN}{8}
+\newcommand{\AnisoAdvHuberAOneKTwo}{1.27}
+\newcommand{\AnisoAdvHuberASixteenKOneCI}{[0.72, 0.85]}
+\newcommand{\AnisoAdvHuberASixteenKOneHi}{0.85}
+\newcommand{\AnisoAdvHuberASixteenKOneLo}{0.72}
+\newcommand{\AnisoAdvHuberASixteenKOneN}{8}
+\newcommand{\AnisoAdvHuberASixteenKOne}{0.78}
+\newcommand{\AnisoAdvHuberASixteenKTwoCI}{[1.17, 1.39]}
+\newcommand{\AnisoAdvHuberASixteenKTwoHi}{1.39}
+\newcommand{\AnisoAdvHuberASixteenKTwoLo}{1.17}
+\newcommand{\AnisoAdvHuberASixteenKTwoN}{8}
+\newcommand{\AnisoAdvHuberASixteenKTwo}{1.28}
+\newcommand{\AnisoAdvLsAFiftySevenKOneCI}{[0.54, 0.64]}
+\newcommand{\AnisoAdvLsAFiftySevenKOneHi}{0.64}
+\newcommand{\AnisoAdvLsAFiftySevenKOneLo}{0.54}
+\newcommand{\AnisoAdvLsAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvLsAFiftySevenKOne}{0.58}
+\newcommand{\AnisoAdvLsAFiftySevenKTwoCI}{[0.95, 1.07]}
+\newcommand{\AnisoAdvLsAFiftySevenKTwoHi}{1.07}
+\newcommand{\AnisoAdvLsAFiftySevenKTwoLo}{0.95}
+\newcommand{\AnisoAdvLsAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvLsAFiftySevenKTwo}{1.00}
+\newcommand{\AnisoAdvLsAFourKOneCI}{[0.54, 0.63]}
+\newcommand{\AnisoAdvLsAFourKOneHi}{0.63}
+\newcommand{\AnisoAdvLsAFourKOneLo}{0.54}
+\newcommand{\AnisoAdvLsAFourKOneN}{8}
+\newcommand{\AnisoAdvLsAFourKOne}{0.58}
+\newcommand{\AnisoAdvLsAFourKTwoCI}{[0.95, 1.07]}
+\newcommand{\AnisoAdvLsAFourKTwoHi}{1.07}
+\newcommand{\AnisoAdvLsAFourKTwoLo}{0.95}
+\newcommand{\AnisoAdvLsAFourKTwoN}{8}
+\newcommand{\AnisoAdvLsAFourKTwo}{1.00}
+\newcommand{\AnisoAdvLsAOneKOneCI}{[0.54, 0.64]}
+\newcommand{\AnisoAdvLsAOneKOneHi}{0.64}
+\newcommand{\AnisoAdvLsAOneKOneLo}{0.54}
+\newcommand{\AnisoAdvLsAOneKOneN}{8}
+\newcommand{\AnisoAdvLsAOneKOne}{0.58}
+\newcommand{\AnisoAdvLsAOneKTwoCI}{[0.95, 1.07]}
+\newcommand{\AnisoAdvLsAOneKTwoHi}{1.07}
+\newcommand{\AnisoAdvLsAOneKTwoLo}{0.95}
+\newcommand{\AnisoAdvLsAOneKTwoN}{8}
+\newcommand{\AnisoAdvLsAOneKTwo}{1.00}
+\newcommand{\AnisoAdvLsASixteenKOneCI}{[0.54, 0.64]}
+\newcommand{\AnisoAdvLsASixteenKOneHi}{0.64}
+\newcommand{\AnisoAdvLsASixteenKOneLo}{0.54}
+\newcommand{\AnisoAdvLsASixteenKOneN}{8}
+\newcommand{\AnisoAdvLsASixteenKOne}{0.58}
+\newcommand{\AnisoAdvLsASixteenKTwoCI}{[0.95, 1.08]}
+\newcommand{\AnisoAdvLsASixteenKTwoHi}{1.08}
+\newcommand{\AnisoAdvLsASixteenKTwoLo}{0.95}
+\newcommand{\AnisoAdvLsASixteenKTwoN}{8}
+\newcommand{\AnisoAdvLsASixteenKTwo}{1.00}
+\newcommand{\AnisoAdvRansacAFiftySevenKOneCI}{[0.88, 1.34]}
+\newcommand{\AnisoAdvRansacAFiftySevenKOneHi}{1.34}
+\newcommand{\AnisoAdvRansacAFiftySevenKOneLo}{0.88}
+\newcommand{\AnisoAdvRansacAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvRansacAFiftySevenKOne}{1.05}
+\newcommand{\AnisoAdvRansacAFiftySevenKTwoCI}{[1.81, 2.50]}
+\newcommand{\AnisoAdvRansacAFiftySevenKTwoHi}{2.50}
+\newcommand{\AnisoAdvRansacAFiftySevenKTwoLo}{1.81}
+\newcommand{\AnisoAdvRansacAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvRansacAFiftySevenKTwo}{2.12}
+\newcommand{\AnisoAdvRansacAFourKOneCI}{[0.99, 1.37]}
+\newcommand{\AnisoAdvRansacAFourKOneHi}{1.37}
+\newcommand{\AnisoAdvRansacAFourKOneLo}{0.99}
+\newcommand{\AnisoAdvRansacAFourKOneN}{8}
+\newcommand{\AnisoAdvRansacAFourKOne}{1.18}
+\newcommand{\AnisoAdvRansacAFourKTwoCI}{[1.98, 2.76]}
+\newcommand{\AnisoAdvRansacAFourKTwoHi}{2.76}
+\newcommand{\AnisoAdvRansacAFourKTwoLo}{1.98}
+\newcommand{\AnisoAdvRansacAFourKTwoN}{8}
+\newcommand{\AnisoAdvRansacAFourKTwo}{2.33}
+\newcommand{\AnisoAdvRansacAOneKOneCI}{[1.03, 1.45]}
+\newcommand{\AnisoAdvRansacAOneKOneHi}{1.45}
+\newcommand{\AnisoAdvRansacAOneKOneLo}{1.03}
+\newcommand{\AnisoAdvRansacAOneKOneN}{8}
+\newcommand{\AnisoAdvRansacAOneKOne}{1.24}
+\newcommand{\AnisoAdvRansacAOneKTwoCI}{[2.01, 3.11]}
+\newcommand{\AnisoAdvRansacAOneKTwoHi}{3.11}
+\newcommand{\AnisoAdvRansacAOneKTwoLo}{2.01}
+\newcommand{\AnisoAdvRansacAOneKTwoN}{8}
+\newcommand{\AnisoAdvRansacAOneKTwo}{2.49}
+\newcommand{\AnisoAdvRansacASixteenKOneCI}{[0.89, 1.36]}
+\newcommand{\AnisoAdvRansacASixteenKOneHi}{1.36}
+\newcommand{\AnisoAdvRansacASixteenKOneLo}{0.89}
+\newcommand{\AnisoAdvRansacASixteenKOneN}{8}
+\newcommand{\AnisoAdvRansacASixteenKOne}{1.08}
+\newcommand{\AnisoAdvRansacASixteenKTwoCI}{[1.92, 2.66]}
+\newcommand{\AnisoAdvRansacASixteenKTwoHi}{2.66}
+\newcommand{\AnisoAdvRansacASixteenKTwoLo}{1.92}
+\newcommand{\AnisoAdvRansacASixteenKTwoN}{8}
+\newcommand{\AnisoAdvRansacASixteenKTwo}{2.24}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKOneCI}{[0.48, 0.64]}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKOneHi}{0.64}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKOneLo}{0.48}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKOne}{0.54}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKTwoCI}{[0.94, 1.24]}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKTwoHi}{1.24}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKTwoLo}{0.94}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvTmrTenAFiftySevenKTwo}{1.07}
+\newcommand{\AnisoAdvTmrTenAFourKOneCI}{[0.47, 0.59]}
+\newcommand{\AnisoAdvTmrTenAFourKOneHi}{0.59}
+\newcommand{\AnisoAdvTmrTenAFourKOneLo}{0.47}
+\newcommand{\AnisoAdvTmrTenAFourKOneN}{8}
+\newcommand{\AnisoAdvTmrTenAFourKOne}{0.53}
+\newcommand{\AnisoAdvTmrTenAFourKTwoCI}{[0.91, 1.05]}
+\newcommand{\AnisoAdvTmrTenAFourKTwoHi}{1.05}
+\newcommand{\AnisoAdvTmrTenAFourKTwoLo}{0.91}
+\newcommand{\AnisoAdvTmrTenAFourKTwoN}{8}
+\newcommand{\AnisoAdvTmrTenAFourKTwo}{0.98}
+\newcommand{\AnisoAdvTmrTenAOneKOneCI}{[0.45, 0.52]}
+\newcommand{\AnisoAdvTmrTenAOneKOneHi}{0.52}
+\newcommand{\AnisoAdvTmrTenAOneKOneLo}{0.45}
+\newcommand{\AnisoAdvTmrTenAOneKOneN}{8}
+\newcommand{\AnisoAdvTmrTenAOneKOne}{0.48}
+\newcommand{\AnisoAdvTmrTenAOneKTwoCI}{[0.85, 0.99]}
+\newcommand{\AnisoAdvTmrTenAOneKTwoHi}{0.99}
+\newcommand{\AnisoAdvTmrTenAOneKTwoLo}{0.85}
+\newcommand{\AnisoAdvTmrTenAOneKTwoN}{8}
+\newcommand{\AnisoAdvTmrTenAOneKTwo}{0.91}
+\newcommand{\AnisoAdvTmrTenASixteenKOneCI}{[0.49, 0.63]}
+\newcommand{\AnisoAdvTmrTenASixteenKOneHi}{0.63}
+\newcommand{\AnisoAdvTmrTenASixteenKOneLo}{0.49}
+\newcommand{\AnisoAdvTmrTenASixteenKOneN}{8}
+\newcommand{\AnisoAdvTmrTenASixteenKOne}{0.56}
+\newcommand{\AnisoAdvTmrTenASixteenKTwoCI}{[0.95, 1.20]}
+\newcommand{\AnisoAdvTmrTenASixteenKTwoHi}{1.20}
+\newcommand{\AnisoAdvTmrTenASixteenKTwoLo}{0.95}
+\newcommand{\AnisoAdvTmrTenASixteenKTwoN}{8}
+\newcommand{\AnisoAdvTmrTenASixteenKTwo}{1.06}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKOneCI}{[0.45, 0.60]}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKOneHi}{0.60}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKOneLo}{0.45}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKOneN}{8}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKOne}{0.51}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKTwoCI}{[0.90, 1.17]}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKTwoHi}{1.17}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKTwoLo}{0.90}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKTwoN}{8}
+\newcommand{\AnisoAdvTmrTwentyAFiftySevenKTwo}{1.01}
+\newcommand{\AnisoAdvTmrTwentyAFourKOneCI}{[0.44, 0.52]}
+\newcommand{\AnisoAdvTmrTwentyAFourKOneHi}{0.52}
+\newcommand{\AnisoAdvTmrTwentyAFourKOneLo}{0.44}
+\newcommand{\AnisoAdvTmrTwentyAFourKOneN}{8}
+\newcommand{\AnisoAdvTmrTwentyAFourKOne}{0.48}
+\newcommand{\AnisoAdvTmrTwentyAFourKTwoCI}{[0.86, 0.98]}
+\newcommand{\AnisoAdvTmrTwentyAFourKTwoHi}{0.98}
+\newcommand{\AnisoAdvTmrTwentyAFourKTwoLo}{0.86}
+\newcommand{\AnisoAdvTmrTwentyAFourKTwoN}{8}
+\newcommand{\AnisoAdvTmrTwentyAFourKTwo}{0.91}
+\newcommand{\AnisoAdvTmrTwentyAOneKOneCI}{[0.41, 0.48]}
+\newcommand{\AnisoAdvTmrTwentyAOneKOneHi}{0.48}
+\newcommand{\AnisoAdvTmrTwentyAOneKOneLo}{0.41}
+\newcommand{\AnisoAdvTmrTwentyAOneKOneN}{8}
+\newcommand{\AnisoAdvTmrTwentyAOneKOne}{0.44}
+\newcommand{\AnisoAdvTmrTwentyAOneKTwoCI}{[0.81, 0.95]}
+\newcommand{\AnisoAdvTmrTwentyAOneKTwoHi}{0.95}
+\newcommand{\AnisoAdvTmrTwentyAOneKTwoLo}{0.81}
+\newcommand{\AnisoAdvTmrTwentyAOneKTwoN}{8}
+\newcommand{\AnisoAdvTmrTwentyAOneKTwo}{0.87}
+\newcommand{\AnisoAdvTmrTwentyASixteenKOneCI}{[0.46, 0.57]}
+\newcommand{\AnisoAdvTmrTwentyASixteenKOneHi}{0.57}
+\newcommand{\AnisoAdvTmrTwentyASixteenKOneLo}{0.46}
+\newcommand{\AnisoAdvTmrTwentyASixteenKOneN}{8}
+\newcommand{\AnisoAdvTmrTwentyASixteenKOne}{0.51}
+\newcommand{\AnisoAdvTmrTwentyASixteenKTwoCI}{[0.90, 1.11]}
+\newcommand{\AnisoAdvTmrTwentyASixteenKTwoHi}{1.11}
+\newcommand{\AnisoAdvTmrTwentyASixteenKTwoLo}{0.90}
+\newcommand{\AnisoAdvTmrTwentyASixteenKTwoN}{8}
+\newcommand{\AnisoAdvTmrTwentyASixteenKTwo}{0.99}
+\newcommand{\AnisoAvgFullAFiftySevenKOneCI}{[0.69, 0.84]}
+\newcommand{\AnisoAvgFullAFiftySevenKOneHi}{0.84}
+\newcommand{\AnisoAvgFullAFiftySevenKOneLo}{0.69}
+\newcommand{\AnisoAvgFullAFiftySevenKOneN}{24}
+\newcommand{\AnisoAvgFullAFiftySevenKOne}{0.77}
+\newcommand{\AnisoAvgFullAFiftySevenKTwoCI}{[0.79, 0.87]}
+\newcommand{\AnisoAvgFullAFiftySevenKTwoHi}{0.87}
+\newcommand{\AnisoAvgFullAFiftySevenKTwoLo}{0.79}
+\newcommand{\AnisoAvgFullAFiftySevenKTwoN}{24}
+\newcommand{\AnisoAvgFullAFiftySevenKTwo}{0.83}
+\newcommand{\AnisoAvgFullAFourKOneCI}{[0.73, 0.81]}
+\newcommand{\AnisoAvgFullAFourKOneHi}{0.81}
+\newcommand{\AnisoAvgFullAFourKOneLo}{0.73}
+\newcommand{\AnisoAvgFullAFourKOneN}{24}
+\newcommand{\AnisoAvgFullAFourKOne}{0.77}
+\newcommand{\AnisoAvgFullAFourKTwoCI}{[0.81, 0.87]}
+\newcommand{\AnisoAvgFullAFourKTwoHi}{0.87}
+\newcommand{\AnisoAvgFullAFourKTwoLo}{0.81}
+\newcommand{\AnisoAvgFullAFourKTwoN}{24}
+\newcommand{\AnisoAvgFullAFourKTwo}{0.83}
+\newcommand{\AnisoAvgFullAOneKOneCI}{[0.74, 0.82]}
+\newcommand{\AnisoAvgFullAOneKOneHi}{0.82}
+\newcommand{\AnisoAvgFullAOneKOneLo}{0.74}
+\newcommand{\AnisoAvgFullAOneKOneN}{24}
+\newcommand{\AnisoAvgFullAOneKOne}{0.78}
+\newcommand{\AnisoAvgFullAOneKTwoCI}{[0.84, 0.87]}
+\newcommand{\AnisoAvgFullAOneKTwoHi}{0.87}
+\newcommand{\AnisoAvgFullAOneKTwoLo}{0.84}
+\newcommand{\AnisoAvgFullAOneKTwoN}{24}
+\newcommand{\AnisoAvgFullAOneKTwo}{0.85}
+\newcommand{\AnisoAvgFullASixteenKOneCI}{[0.73, 0.82]}
+\newcommand{\AnisoAvgFullASixteenKOneHi}{0.82}
+\newcommand{\AnisoAvgFullASixteenKOneLo}{0.73}
+\newcommand{\AnisoAvgFullASixteenKOneN}{24}
+\newcommand{\AnisoAvgFullASixteenKOne}{0.78}
+\newcommand{\AnisoAvgFullASixteenKTwoCI}{[0.79, 0.86]}
+\newcommand{\AnisoAvgFullASixteenKTwoHi}{0.86}
+\newcommand{\AnisoAvgFullASixteenKTwoLo}{0.79}
+\newcommand{\AnisoAvgFullASixteenKTwoN}{24}
+\newcommand{\AnisoAvgFullASixteenKTwo}{0.84}
+\newcommand{\AnisoCleanCostAFiftySevenKOneCI}{[3.4\%, 6.1\%]}
+\newcommand{\AnisoCleanCostAFiftySevenKOneHi}{6.1\%}
+\newcommand{\AnisoCleanCostAFiftySevenKOneLo}{3.4\%}
+\newcommand{\AnisoCleanCostAFiftySevenKOneN}{8}
+\newcommand{\AnisoCleanCostAFiftySevenKOne}{4.8\%}
+\newcommand{\AnisoCleanCostAFiftySevenKTwoCI}{[3.5\%, 6.1\%]}
+\newcommand{\AnisoCleanCostAFiftySevenKTwoHi}{6.1\%}
+\newcommand{\AnisoCleanCostAFiftySevenKTwoLo}{3.5\%}
+\newcommand{\AnisoCleanCostAFiftySevenKTwoN}{8}
+\newcommand{\AnisoCleanCostAFiftySevenKTwo}{4.9\%}
+\newcommand{\AnisoCleanCostAFourKOneCI}{[3.0\%, 5.0\%]}
+\newcommand{\AnisoCleanCostAFourKOneHi}{5.0\%}
+\newcommand{\AnisoCleanCostAFourKOneLo}{3.0\%}
+\newcommand{\AnisoCleanCostAFourKOneN}{8}
+\newcommand{\AnisoCleanCostAFourKOne}{4.0\%}
+\newcommand{\AnisoCleanCostAFourKTwoCI}{[2.7\%, 5.5\%]}
+\newcommand{\AnisoCleanCostAFourKTwoHi}{5.5\%}
+\newcommand{\AnisoCleanCostAFourKTwoLo}{2.7\%}
+\newcommand{\AnisoCleanCostAFourKTwoN}{8}
+\newcommand{\AnisoCleanCostAFourKTwo}{4.2\%}
+\newcommand{\AnisoCleanCostAOneKOneCI}{[5.3\%, 7.7\%]}
+\newcommand{\AnisoCleanCostAOneKOneHi}{7.7\%}
+\newcommand{\AnisoCleanCostAOneKOneLo}{5.3\%}
+\newcommand{\AnisoCleanCostAOneKOneN}{8}
+\newcommand{\AnisoCleanCostAOneKOne}{6.4\%}
+\newcommand{\AnisoCleanCostAOneKTwoCI}{[4.8\%, 7.8\%]}
+\newcommand{\AnisoCleanCostAOneKTwoHi}{7.8\%}
+\newcommand{\AnisoCleanCostAOneKTwoLo}{4.8\%}
+\newcommand{\AnisoCleanCostAOneKTwoN}{8}
+\newcommand{\AnisoCleanCostAOneKTwo}{6.2\%}
+\newcommand{\AnisoCleanCostASixteenKOneCI}{[3.5\%, 6.7\%]}
+\newcommand{\AnisoCleanCostASixteenKOneHi}{6.7\%}
+\newcommand{\AnisoCleanCostASixteenKOneLo}{3.5\%}
+\newcommand{\AnisoCleanCostASixteenKOneN}{8}
+\newcommand{\AnisoCleanCostASixteenKOne}{5.2\%}
+\newcommand{\AnisoCleanCostASixteenKTwoCI}{[3.4\%, 6.9\%]}
+\newcommand{\AnisoCleanCostASixteenKTwoHi}{6.9\%}
+\newcommand{\AnisoCleanCostASixteenKTwoLo}{3.4\%}
+\newcommand{\AnisoCleanCostASixteenKTwoN}{8}
+\newcommand{\AnisoCleanCostASixteenKTwo}{5.1\%}
+\newcommand{\AnisoCleanLsAFiftySevenKOneCI}{[1.70, 2.21]}
+\newcommand{\AnisoCleanLsAFiftySevenKOneHi}{2.21}
+\newcommand{\AnisoCleanLsAFiftySevenKOneLo}{1.70}
+\newcommand{\AnisoCleanLsAFiftySevenKOneN}{8}
+\newcommand{\AnisoCleanLsAFiftySevenKOne}{1.94}
+\newcommand{\AnisoCleanLsAFiftySevenKTwoCI}{[1.70, 2.21]}
+\newcommand{\AnisoCleanLsAFiftySevenKTwoHi}{2.21}
+\newcommand{\AnisoCleanLsAFiftySevenKTwoLo}{1.70}
+\newcommand{\AnisoCleanLsAFiftySevenKTwoN}{8}
+\newcommand{\AnisoCleanLsAFiftySevenKTwo}{1.94}
+\newcommand{\AnisoCleanLsAFourKOneCI}{[1.17, 1.36]}
+\newcommand{\AnisoCleanLsAFourKOneHi}{1.36}
+\newcommand{\AnisoCleanLsAFourKOneLo}{1.17}
+\newcommand{\AnisoCleanLsAFourKOneN}{8}
+\newcommand{\AnisoCleanLsAFourKOne}{1.26}
+\newcommand{\AnisoCleanLsAFourKTwoCI}{[1.17, 1.36]}
+\newcommand{\AnisoCleanLsAFourKTwoHi}{1.36}
+\newcommand{\AnisoCleanLsAFourKTwoLo}{1.17}
+\newcommand{\AnisoCleanLsAFourKTwoN}{8}
+\newcommand{\AnisoCleanLsAFourKTwo}{1.26}
+\newcommand{\AnisoCleanLsAOneKOneCI}{[1.07, 1.21]}
+\newcommand{\AnisoCleanLsAOneKOneHi}{1.21}
+\newcommand{\AnisoCleanLsAOneKOneLo}{1.07}
+\newcommand{\AnisoCleanLsAOneKOneN}{8}
+\newcommand{\AnisoCleanLsAOneKOne}{1.14}
+\newcommand{\AnisoCleanLsAOneKTwoCI}{[1.07, 1.21]}
+\newcommand{\AnisoCleanLsAOneKTwoHi}{1.21}
+\newcommand{\AnisoCleanLsAOneKTwoLo}{1.07}
+\newcommand{\AnisoCleanLsAOneKTwoN}{8}
+\newcommand{\AnisoCleanLsAOneKTwo}{1.14}
+\newcommand{\AnisoCleanLsASixteenKOneCI}{[1.48, 1.82]}
+\newcommand{\AnisoCleanLsASixteenKOneHi}{1.82}
+\newcommand{\AnisoCleanLsASixteenKOneLo}{1.48}
+\newcommand{\AnisoCleanLsASixteenKOneN}{8}
+\newcommand{\AnisoCleanLsASixteenKOne}{1.64}
+\newcommand{\AnisoCleanLsASixteenKTwoCI}{[1.48, 1.82]}
+\newcommand{\AnisoCleanLsASixteenKTwoHi}{1.82}
+\newcommand{\AnisoCleanLsASixteenKTwoLo}{1.48}
+\newcommand{\AnisoCleanLsASixteenKTwoN}{8}
+\newcommand{\AnisoCleanLsASixteenKTwo}{1.64}
+\newcommand{\AnisoCrossover}{none}
+\newcommand{\AnisoLearnedAFiftySevenKOneCI}{[0.77, 0.93]}
+\newcommand{\AnisoLearnedAFiftySevenKOneHi}{0.93}
+\newcommand{\AnisoLearnedAFiftySevenKOneLo}{0.77}
+\newcommand{\AnisoLearnedAFiftySevenKOneN}{24}
+\newcommand{\AnisoLearnedAFiftySevenKOne}{0.87}
+\newcommand{\AnisoLearnedAFiftySevenKTwoCI}{[0.76, 0.88]}
+\newcommand{\AnisoLearnedAFiftySevenKTwoHi}{0.88}
+\newcommand{\AnisoLearnedAFiftySevenKTwoLo}{0.76}
+\newcommand{\AnisoLearnedAFiftySevenKTwoN}{24}
+\newcommand{\AnisoLearnedAFiftySevenKTwo}{0.83}
+\newcommand{\AnisoLearnedAFourKOneCI}{[0.90, 0.99]}
+\newcommand{\AnisoLearnedAFourKOneHi}{0.99}
+\newcommand{\AnisoLearnedAFourKOneLo}{0.90}
+\newcommand{\AnisoLearnedAFourKOneN}{24}
+\newcommand{\AnisoLearnedAFourKOne}{0.93}
+\newcommand{\AnisoLearnedAFourKTwoCI}{[0.91, 0.96]}
+\newcommand{\AnisoLearnedAFourKTwoHi}{0.96}
+\newcommand{\AnisoLearnedAFourKTwoLo}{0.91}
+\newcommand{\AnisoLearnedAFourKTwoN}{24}
+\newcommand{\AnisoLearnedAFourKTwo}{0.94}
+\newcommand{\AnisoLearnedAOneKOneCI}{[0.75, 0.82]}
+\newcommand{\AnisoLearnedAOneKOneHi}{0.82}
+\newcommand{\AnisoLearnedAOneKOneLo}{0.75}
+\newcommand{\AnisoLearnedAOneKOneN}{24}
+\newcommand{\AnisoLearnedAOneKOne}{0.79}
+\newcommand{\AnisoLearnedAOneKTwoCI}{[0.84, 0.88]}
+\newcommand{\AnisoLearnedAOneKTwoHi}{0.88}
+\newcommand{\AnisoLearnedAOneKTwoLo}{0.84}
+\newcommand{\AnisoLearnedAOneKTwoN}{24}
+\newcommand{\AnisoLearnedAOneKTwo}{0.86}
+\newcommand{\AnisoLearnedASixteenKOneCI}{[0.76, 0.92]}
+\newcommand{\AnisoLearnedASixteenKOneHi}{0.92}
+\newcommand{\AnisoLearnedASixteenKOneLo}{0.76}
+\newcommand{\AnisoLearnedASixteenKOneN}{24}
+\newcommand{\AnisoLearnedASixteenKOne}{0.85}
+\newcommand{\AnisoLearnedASixteenKTwoCI}{[0.78, 0.88]}
+\newcommand{\AnisoLearnedASixteenKTwoHi}{0.88}
+\newcommand{\AnisoLearnedASixteenKTwoLo}{0.78}
+\newcommand{\AnisoLearnedASixteenKTwoN}{24}
+\newcommand{\AnisoLearnedASixteenKTwo}{0.81}
+\newcommand{\AnisoLsGmAFiftySevenKOneCI}{[0.45, 0.63]}
+\newcommand{\AnisoLsGmAFiftySevenKOneHi}{0.63}
+\newcommand{\AnisoLsGmAFiftySevenKOneLo}{0.45}
+\newcommand{\AnisoLsGmAFiftySevenKOneN}{24}
+\newcommand{\AnisoLsGmAFiftySevenKOne}{0.58}
+\newcommand{\AnisoLsGmAFiftySevenKTwoCI}{[0.53, 0.67]}
+\newcommand{\AnisoLsGmAFiftySevenKTwoHi}{0.67}
+\newcommand{\AnisoLsGmAFiftySevenKTwoLo}{0.53}
+\newcommand{\AnisoLsGmAFiftySevenKTwoN}{24}
+\newcommand{\AnisoLsGmAFiftySevenKTwo}{0.59}
+\newcommand{\AnisoLsGmAFourKOneCI}{[0.58, 0.77]}
+\newcommand{\AnisoLsGmAFourKOneHi}{0.77}
+\newcommand{\AnisoLsGmAFourKOneLo}{0.58}
+\newcommand{\AnisoLsGmAFourKOneN}{24}
+\newcommand{\AnisoLsGmAFourKOne}{0.67}
+\newcommand{\AnisoLsGmAFourKTwoCI}{[0.67, 0.80]}
+\newcommand{\AnisoLsGmAFourKTwoHi}{0.80}
+\newcommand{\AnisoLsGmAFourKTwoLo}{0.67}
+\newcommand{\AnisoLsGmAFourKTwoN}{24}
+\newcommand{\AnisoLsGmAFourKTwo}{0.78}
+\newcommand{\AnisoLsGmAHundredKOneCI}{[0.43, 0.62]}
+\newcommand{\AnisoLsGmAHundredKOneHi}{0.62}
+\newcommand{\AnisoLsGmAHundredKOneLo}{0.43}
+\newcommand{\AnisoLsGmAHundredKOneN}{24}
+\newcommand{\AnisoLsGmAHundredKOne}{0.57}
+\newcommand{\AnisoLsGmAHundredKTwoCI}{[0.52, 0.66]}
+\newcommand{\AnisoLsGmAHundredKTwoHi}{0.66}
+\newcommand{\AnisoLsGmAHundredKTwoLo}{0.52}
+\newcommand{\AnisoLsGmAHundredKTwoN}{24}
+\newcommand{\AnisoLsGmAHundredKTwo}{0.58}
+\newcommand{\AnisoLsGmAOneKOneCI}{[0.69, 0.78]}
+\newcommand{\AnisoLsGmAOneKOneHi}{0.78}
+\newcommand{\AnisoLsGmAOneKOneLo}{0.69}
+\newcommand{\AnisoLsGmAOneKOneN}{24}
+\newcommand{\AnisoLsGmAOneKOne}{0.74}
+\newcommand{\AnisoLsGmAOneKTwoCI}{[0.77, 0.87]}
+\newcommand{\AnisoLsGmAOneKTwoHi}{0.87}
+\newcommand{\AnisoLsGmAOneKTwoLo}{0.77}
+\newcommand{\AnisoLsGmAOneKTwoN}{24}
+\newcommand{\AnisoLsGmAOneKTwo}{0.82}
+\newcommand{\AnisoLsGmASixteenKOneCI}{[0.48, 0.66]}
+\newcommand{\AnisoLsGmASixteenKOneHi}{0.66}
+\newcommand{\AnisoLsGmASixteenKOneLo}{0.48}
+\newcommand{\AnisoLsGmASixteenKOneN}{24}
+\newcommand{\AnisoLsGmASixteenKOne}{0.61}
+\newcommand{\AnisoLsGmASixteenKTwoCI}{[0.57, 0.70]}
+\newcommand{\AnisoLsGmASixteenKTwoHi}{0.70}
+\newcommand{\AnisoLsGmASixteenKTwoLo}{0.57}
+\newcommand{\AnisoLsGmASixteenKTwoN}{24}
+\newcommand{\AnisoLsGmASixteenKTwo}{0.61}
+\newcommand{\AnisoLsGmMaxRatio}{0.74}
+\newcommand{\AnisoLsGmWorstA}{1}
+\newcommand{\AnisoLsVarAFiftySevenKOneCI}{[4.00, 4.88]}
+\newcommand{\AnisoLsVarAFiftySevenKOneHi}{4.88}
+\newcommand{\AnisoLsVarAFiftySevenKOneLo}{4.00}
+\newcommand{\AnisoLsVarAFiftySevenKOneN}{24}
+\newcommand{\AnisoLsVarAFiftySevenKOne}{4.53}
+\newcommand{\AnisoLsVarAFiftySevenKTwoCI}{[4.00, 4.88]}
+\newcommand{\AnisoLsVarAFiftySevenKTwoHi}{4.88}
+\newcommand{\AnisoLsVarAFiftySevenKTwoLo}{4.00}
+\newcommand{\AnisoLsVarAFiftySevenKTwoN}{24}
+\newcommand{\AnisoLsVarAFiftySevenKTwo}{4.53}
+\newcommand{\AnisoLsVarAFourKOneCI}{[1.38, 1.74]}
+\newcommand{\AnisoLsVarAFourKOneHi}{1.74}
+\newcommand{\AnisoLsVarAFourKOneLo}{1.38}
+\newcommand{\AnisoLsVarAFourKOneN}{24}
+\newcommand{\AnisoLsVarAFourKOne}{1.63}
+\newcommand{\AnisoLsVarAFourKTwoCI}{[1.38, 1.74]}
+\newcommand{\AnisoLsVarAFourKTwoHi}{1.74}
+\newcommand{\AnisoLsVarAFourKTwoLo}{1.38}
+\newcommand{\AnisoLsVarAFourKTwoN}{24}
+\newcommand{\AnisoLsVarAFourKTwo}{1.63}
+\newcommand{\AnisoLsVarAOneKOneCI}{[1.20, 1.37]}
+\newcommand{\AnisoLsVarAOneKOneHi}{1.37}
+\newcommand{\AnisoLsVarAOneKOneLo}{1.20}
+\newcommand{\AnisoLsVarAOneKOneN}{24}
+\newcommand{\AnisoLsVarAOneKOne}{1.26}
+\newcommand{\AnisoLsVarAOneKTwoCI}{[1.20, 1.37]}
+\newcommand{\AnisoLsVarAOneKTwoHi}{1.37}
+\newcommand{\AnisoLsVarAOneKTwoLo}{1.20}
+\newcommand{\AnisoLsVarAOneKTwoN}{24}
+\newcommand{\AnisoLsVarAOneKTwo}{1.26}
+\newcommand{\AnisoLsVarASixteenKOneCI}{[2.52, 3.24]}
+\newcommand{\AnisoLsVarASixteenKOneHi}{3.24}
+\newcommand{\AnisoLsVarASixteenKOneLo}{2.52}
+\newcommand{\AnisoLsVarASixteenKOneN}{24}
+\newcommand{\AnisoLsVarASixteenKOne}{2.72}
+\newcommand{\AnisoLsVarASixteenKTwoCI}{[2.52, 3.24]}
+\newcommand{\AnisoLsVarASixteenKTwoHi}{3.24}
+\newcommand{\AnisoLsVarASixteenKTwoLo}{2.52}
+\newcommand{\AnisoLsVarASixteenKTwoN}{24}
+\newcommand{\AnisoLsVarASixteenKTwo}{2.72}
+\newcommand{\AnisoMaxRatio}{100}
+\newcommand{\AnisoNFactorial}{24}
+\newcommand{\AnisoPredMedErr}{0.2\%}
+\newcommand{\AnisoPredN}{320}
+\newcommand{\AnisoRedTmrTenAFiftySevenKOneCI}{[37\%, 49\%]}
+\newcommand{\AnisoRedTmrTenAFiftySevenKOneHi}{49\%}
+\newcommand{\AnisoRedTmrTenAFiftySevenKOneLo}{37\%}
+\newcommand{\AnisoRedTmrTenAFiftySevenKOneN}{8}
+\newcommand{\AnisoRedTmrTenAFiftySevenKOne}{43\%}
+\newcommand{\AnisoRedTmrTenAFiftySevenKTwoCI}{[24\%, 35\%]}
+\newcommand{\AnisoRedTmrTenAFiftySevenKTwoHi}{35\%}
+\newcommand{\AnisoRedTmrTenAFiftySevenKTwoLo}{24\%}
+\newcommand{\AnisoRedTmrTenAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRedTmrTenAFiftySevenKTwo}{30\%}
+\newcommand{\AnisoRedTmrTenAFourKOneCI}{[32\%, 44\%]}
+\newcommand{\AnisoRedTmrTenAFourKOneHi}{44\%}
+\newcommand{\AnisoRedTmrTenAFourKOneLo}{32\%}
+\newcommand{\AnisoRedTmrTenAFourKOneN}{8}
+\newcommand{\AnisoRedTmrTenAFourKOne}{38\%}
+\newcommand{\AnisoRedTmrTenAFourKTwoCI}{[20\%, 31\%]}
+\newcommand{\AnisoRedTmrTenAFourKTwoHi}{31\%}
+\newcommand{\AnisoRedTmrTenAFourKTwoLo}{20\%}
+\newcommand{\AnisoRedTmrTenAFourKTwoN}{8}
+\newcommand{\AnisoRedTmrTenAFourKTwo}{26\%}
+\newcommand{\AnisoRedTmrTenAOneKOneCI}{[31\%, 41\%]}
+\newcommand{\AnisoRedTmrTenAOneKOneHi}{41\%}
+\newcommand{\AnisoRedTmrTenAOneKOneLo}{31\%}
+\newcommand{\AnisoRedTmrTenAOneKOneN}{8}
+\newcommand{\AnisoRedTmrTenAOneKOne}{36\%}
+\newcommand{\AnisoRedTmrTenAOneKTwoCI}{[16\%, 26\%]}
+\newcommand{\AnisoRedTmrTenAOneKTwoHi}{26\%}
+\newcommand{\AnisoRedTmrTenAOneKTwoLo}{16\%}
+\newcommand{\AnisoRedTmrTenAOneKTwoN}{8}
+\newcommand{\AnisoRedTmrTenAOneKTwo}{21\%}
+\newcommand{\AnisoRedTmrTenASixteenKOneCI}{[34\%, 45\%]}
+\newcommand{\AnisoRedTmrTenASixteenKOneHi}{45\%}
+\newcommand{\AnisoRedTmrTenASixteenKOneLo}{34\%}
+\newcommand{\AnisoRedTmrTenASixteenKOneN}{8}
+\newcommand{\AnisoRedTmrTenASixteenKOne}{40\%}
+\newcommand{\AnisoRedTmrTenASixteenKTwoCI}{[22\%, 32\%]}
+\newcommand{\AnisoRedTmrTenASixteenKTwoHi}{32\%}
+\newcommand{\AnisoRedTmrTenASixteenKTwoLo}{22\%}
+\newcommand{\AnisoRedTmrTenASixteenKTwoN}{8}
+\newcommand{\AnisoRedTmrTenASixteenKTwo}{27\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKOneCI}{[39\%, 53\%]}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKOneHi}{53\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKOneLo}{39\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKOneN}{8}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKOne}{47\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKTwoCI}{[27\%, 39\%]}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKTwoHi}{39\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKTwoLo}{27\%}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRedTmrTwentyAFiftySevenKTwo}{33\%}
+\newcommand{\AnisoRedTmrTwentyAFourKOneCI}{[37\%, 49\%]}
+\newcommand{\AnisoRedTmrTwentyAFourKOneHi}{49\%}
+\newcommand{\AnisoRedTmrTwentyAFourKOneLo}{37\%}
+\newcommand{\AnisoRedTmrTwentyAFourKOneN}{8}
+\newcommand{\AnisoRedTmrTwentyAFourKOne}{44\%}
+\newcommand{\AnisoRedTmrTwentyAFourKTwoCI}{[24\%, 37\%]}
+\newcommand{\AnisoRedTmrTwentyAFourKTwoHi}{37\%}
+\newcommand{\AnisoRedTmrTwentyAFourKTwoLo}{24\%}
+\newcommand{\AnisoRedTmrTwentyAFourKTwoN}{8}
+\newcommand{\AnisoRedTmrTwentyAFourKTwo}{30\%}
+\newcommand{\AnisoRedTmrTwentyAOneKOneCI}{[34\%, 47\%]}
+\newcommand{\AnisoRedTmrTwentyAOneKOneHi}{47\%}
+\newcommand{\AnisoRedTmrTwentyAOneKOneLo}{34\%}
+\newcommand{\AnisoRedTmrTwentyAOneKOneN}{8}
+\newcommand{\AnisoRedTmrTwentyAOneKOne}{40\%}
+\newcommand{\AnisoRedTmrTwentyAOneKTwoCI}{[18\%, 31\%]}
+\newcommand{\AnisoRedTmrTwentyAOneKTwoHi}{31\%}
+\newcommand{\AnisoRedTmrTwentyAOneKTwoLo}{18\%}
+\newcommand{\AnisoRedTmrTwentyAOneKTwoN}{8}
+\newcommand{\AnisoRedTmrTwentyAOneKTwo}{24\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKOneCI}{[38\%, 51\%]}
+\newcommand{\AnisoRedTmrTwentyASixteenKOneHi}{51\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKOneLo}{38\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKOneN}{8}
+\newcommand{\AnisoRedTmrTwentyASixteenKOne}{45\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKTwoCI}{[26\%, 38\%]}
+\newcommand{\AnisoRedTmrTwentyASixteenKTwoHi}{38\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKTwoLo}{26\%}
+\newcommand{\AnisoRedTmrTwentyASixteenKTwoN}{8}
+\newcommand{\AnisoRedTmrTwentyASixteenKTwo}{32\%}
+\newcommand{\AnisoRelGncAFiftySevenKOneCI}{[0.68, 1.29]}
+\newcommand{\AnisoRelGncAFiftySevenKOneHi}{1.29}
+\newcommand{\AnisoRelGncAFiftySevenKOneLo}{0.68}
+\newcommand{\AnisoRelGncAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelGncAFiftySevenKOne}{0.97}
+\newcommand{\AnisoRelGncAFiftySevenKTwoCI}{[0.84, 1.53]}
+\newcommand{\AnisoRelGncAFiftySevenKTwoHi}{1.53}
+\newcommand{\AnisoRelGncAFiftySevenKTwoLo}{0.84}
+\newcommand{\AnisoRelGncAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelGncAFiftySevenKTwo}{1.17}
+\newcommand{\AnisoRelGncAFourKOneCI}{[0.87, 1.45]}
+\newcommand{\AnisoRelGncAFourKOneHi}{1.45}
+\newcommand{\AnisoRelGncAFourKOneLo}{0.87}
+\newcommand{\AnisoRelGncAFourKOneN}{8}
+\newcommand{\AnisoRelGncAFourKOne}{1.15}
+\newcommand{\AnisoRelGncAFourKTwoCI}{[1.14, 1.85]}
+\newcommand{\AnisoRelGncAFourKTwoHi}{1.85}
+\newcommand{\AnisoRelGncAFourKTwoLo}{1.14}
+\newcommand{\AnisoRelGncAFourKTwoN}{8}
+\newcommand{\AnisoRelGncAFourKTwo}{1.47}
+\newcommand{\AnisoRelGncAOneKOneCI}{[0.99, 1.43]}
+\newcommand{\AnisoRelGncAOneKOneHi}{1.43}
+\newcommand{\AnisoRelGncAOneKOneLo}{0.99}
+\newcommand{\AnisoRelGncAOneKOneN}{8}
+\newcommand{\AnisoRelGncAOneKOne}{1.20}
+\newcommand{\AnisoRelGncAOneKTwoCI}{[1.29, 1.54]}
+\newcommand{\AnisoRelGncAOneKTwoHi}{1.54}
+\newcommand{\AnisoRelGncAOneKTwoLo}{1.29}
+\newcommand{\AnisoRelGncAOneKTwoN}{8}
+\newcommand{\AnisoRelGncAOneKTwo}{1.42}
+\newcommand{\AnisoRelGncASixteenKOneCI}{[0.65, 1.20]}
+\newcommand{\AnisoRelGncASixteenKOneHi}{1.20}
+\newcommand{\AnisoRelGncASixteenKOneLo}{0.65}
+\newcommand{\AnisoRelGncASixteenKOneN}{8}
+\newcommand{\AnisoRelGncASixteenKOne}{0.91}
+\newcommand{\AnisoRelGncASixteenKTwoCI}{[0.87, 1.68]}
+\newcommand{\AnisoRelGncASixteenKTwoHi}{1.68}
+\newcommand{\AnisoRelGncASixteenKTwoLo}{0.87}
+\newcommand{\AnisoRelGncASixteenKTwoN}{8}
+\newcommand{\AnisoRelGncASixteenKTwo}{1.25}
+\newcommand{\AnisoRelHuberAFiftySevenKOneCI}{[0.69, 1.06]}
+\newcommand{\AnisoRelHuberAFiftySevenKOneHi}{1.06}
+\newcommand{\AnisoRelHuberAFiftySevenKOneLo}{0.69}
+\newcommand{\AnisoRelHuberAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelHuberAFiftySevenKOne}{0.86}
+\newcommand{\AnisoRelHuberAFiftySevenKTwoCI}{[0.72, 1.05]}
+\newcommand{\AnisoRelHuberAFiftySevenKTwoHi}{1.05}
+\newcommand{\AnisoRelHuberAFiftySevenKTwoLo}{0.72}
+\newcommand{\AnisoRelHuberAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelHuberAFiftySevenKTwo}{0.88}
+\newcommand{\AnisoRelHuberAFourKOneCI}{[0.81, 1.24]}
+\newcommand{\AnisoRelHuberAFourKOneHi}{1.24}
+\newcommand{\AnisoRelHuberAFourKOneLo}{0.81}
+\newcommand{\AnisoRelHuberAFourKOneN}{8}
+\newcommand{\AnisoRelHuberAFourKOne}{1.02}
+\newcommand{\AnisoRelHuberAFourKTwoCI}{[0.87, 1.17]}
+\newcommand{\AnisoRelHuberAFourKTwoHi}{1.17}
+\newcommand{\AnisoRelHuberAFourKTwoLo}{0.87}
+\newcommand{\AnisoRelHuberAFourKTwoN}{8}
+\newcommand{\AnisoRelHuberAFourKTwo}{1.02}
+\newcommand{\AnisoRelHuberAOneKOneCI}{[0.93, 1.23]}
+\newcommand{\AnisoRelHuberAOneKOneHi}{1.23}
+\newcommand{\AnisoRelHuberAOneKOneLo}{0.93}
+\newcommand{\AnisoRelHuberAOneKOneN}{8}
+\newcommand{\AnisoRelHuberAOneKOne}{1.07}
+\newcommand{\AnisoRelHuberAOneKTwoCI}{[0.98, 1.22]}
+\newcommand{\AnisoRelHuberAOneKTwoHi}{1.22}
+\newcommand{\AnisoRelHuberAOneKTwoLo}{0.98}
+\newcommand{\AnisoRelHuberAOneKTwoN}{8}
+\newcommand{\AnisoRelHuberAOneKTwo}{1.11}
+\newcommand{\AnisoRelHuberASixteenKOneCI}{[0.69, 1.10]}
+\newcommand{\AnisoRelHuberASixteenKOneHi}{1.10}
+\newcommand{\AnisoRelHuberASixteenKOneLo}{0.69}
+\newcommand{\AnisoRelHuberASixteenKOneN}{8}
+\newcommand{\AnisoRelHuberASixteenKOne}{0.88}
+\newcommand{\AnisoRelHuberASixteenKTwoCI}{[0.75, 1.07]}
+\newcommand{\AnisoRelHuberASixteenKTwoHi}{1.07}
+\newcommand{\AnisoRelHuberASixteenKTwoLo}{0.75}
+\newcommand{\AnisoRelHuberASixteenKTwoN}{8}
+\newcommand{\AnisoRelHuberASixteenKTwo}{0.90}
+\newcommand{\AnisoRelLsAFiftySevenKOneCI}{[0.53, 0.74]}
+\newcommand{\AnisoRelLsAFiftySevenKOneHi}{0.74}
+\newcommand{\AnisoRelLsAFiftySevenKOneLo}{0.53}
+\newcommand{\AnisoRelLsAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelLsAFiftySevenKOne}{0.62}
+\newcommand{\AnisoRelLsAFiftySevenKTwoCI}{[0.59, 0.78]}
+\newcommand{\AnisoRelLsAFiftySevenKTwoHi}{0.78}
+\newcommand{\AnisoRelLsAFiftySevenKTwoLo}{0.59}
+\newcommand{\AnisoRelLsAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelLsAFiftySevenKTwo}{0.68}
+\newcommand{\AnisoRelLsAFourKOneCI}{[0.60, 0.79]}
+\newcommand{\AnisoRelLsAFourKOneHi}{0.79}
+\newcommand{\AnisoRelLsAFourKOneLo}{0.60}
+\newcommand{\AnisoRelLsAFourKOneN}{8}
+\newcommand{\AnisoRelLsAFourKOne}{0.69}
+\newcommand{\AnisoRelLsAFourKTwoCI}{[0.68, 0.85]}
+\newcommand{\AnisoRelLsAFourKTwoHi}{0.85}
+\newcommand{\AnisoRelLsAFourKTwoLo}{0.68}
+\newcommand{\AnisoRelLsAFourKTwoN}{8}
+\newcommand{\AnisoRelLsAFourKTwo}{0.77}
+\newcommand{\AnisoRelLsAOneKOneCI}{[0.70, 0.86]}
+\newcommand{\AnisoRelLsAOneKOneHi}{0.86}
+\newcommand{\AnisoRelLsAOneKOneLo}{0.70}
+\newcommand{\AnisoRelLsAOneKOneN}{8}
+\newcommand{\AnisoRelLsAOneKOne}{0.78}
+\newcommand{\AnisoRelLsAOneKTwoCI}{[0.80, 0.93]}
+\newcommand{\AnisoRelLsAOneKTwoHi}{0.93}
+\newcommand{\AnisoRelLsAOneKTwoLo}{0.80}
+\newcommand{\AnisoRelLsAOneKTwoN}{8}
+\newcommand{\AnisoRelLsAOneKTwo}{0.87}
+\newcommand{\AnisoRelLsASixteenKOneCI}{[0.55, 0.75]}
+\newcommand{\AnisoRelLsASixteenKOneHi}{0.75}
+\newcommand{\AnisoRelLsASixteenKOneLo}{0.55}
+\newcommand{\AnisoRelLsASixteenKOneN}{8}
+\newcommand{\AnisoRelLsASixteenKOne}{0.64}
+\newcommand{\AnisoRelLsASixteenKTwoCI}{[0.61, 0.80]}
+\newcommand{\AnisoRelLsASixteenKTwoHi}{0.80}
+\newcommand{\AnisoRelLsASixteenKTwoLo}{0.61}
+\newcommand{\AnisoRelLsASixteenKTwoN}{8}
+\newcommand{\AnisoRelLsASixteenKTwo}{0.70}
+\newcommand{\AnisoRelRansacAFiftySevenKOneCI}{[0.84, 1.46]}
+\newcommand{\AnisoRelRansacAFiftySevenKOneHi}{1.46}
+\newcommand{\AnisoRelRansacAFiftySevenKOneLo}{0.84}
+\newcommand{\AnisoRelRansacAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelRansacAFiftySevenKOne}{1.13}
+\newcommand{\AnisoRelRansacAFiftySevenKTwoCI}{[1.12, 1.88]}
+\newcommand{\AnisoRelRansacAFiftySevenKTwoHi}{1.88}
+\newcommand{\AnisoRelRansacAFiftySevenKTwoLo}{1.12}
+\newcommand{\AnisoRelRansacAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelRansacAFiftySevenKTwo}{1.48}
+\newcommand{\AnisoRelRansacAFourKOneCI}{[1.10, 1.80]}
+\newcommand{\AnisoRelRansacAFourKOneHi}{1.80}
+\newcommand{\AnisoRelRansacAFourKOneLo}{1.10}
+\newcommand{\AnisoRelRansacAFourKOneN}{8}
+\newcommand{\AnisoRelRansacAFourKOne}{1.43}
+\newcommand{\AnisoRelRansacAFourKTwoCI}{[1.43, 2.35]}
+\newcommand{\AnisoRelRansacAFourKTwoHi}{2.35}
+\newcommand{\AnisoRelRansacAFourKTwoLo}{1.43}
+\newcommand{\AnisoRelRansacAFourKTwoN}{8}
+\newcommand{\AnisoRelRansacAFourKTwo}{1.83}
+\newcommand{\AnisoRelRansacAOneKOneCI}{[1.34, 2.10]}
+\newcommand{\AnisoRelRansacAOneKOneHi}{2.10}
+\newcommand{\AnisoRelRansacAOneKOneLo}{1.34}
+\newcommand{\AnisoRelRansacAOneKOneN}{8}
+\newcommand{\AnisoRelRansacAOneKOne}{1.69}
+\newcommand{\AnisoRelRansacAOneKTwoCI}{[1.72, 2.74]}
+\newcommand{\AnisoRelRansacAOneKTwoHi}{2.74}
+\newcommand{\AnisoRelRansacAOneKTwoLo}{1.72}
+\newcommand{\AnisoRelRansacAOneKTwoN}{8}
+\newcommand{\AnisoRelRansacAOneKTwo}{2.17}
+\newcommand{\AnisoRelRansacASixteenKOneCI}{[0.88, 1.60]}
+\newcommand{\AnisoRelRansacASixteenKOneHi}{1.60}
+\newcommand{\AnisoRelRansacASixteenKOneLo}{0.88}
+\newcommand{\AnisoRelRansacASixteenKOneN}{8}
+\newcommand{\AnisoRelRansacASixteenKOne}{1.22}
+\newcommand{\AnisoRelRansacASixteenKTwoCI}{[1.19, 2.10]}
+\newcommand{\AnisoRelRansacASixteenKTwoHi}{2.10}
+\newcommand{\AnisoRelRansacASixteenKTwoLo}{1.19}
+\newcommand{\AnisoRelRansacASixteenKTwoN}{8}
+\newcommand{\AnisoRelRansacASixteenKTwo}{1.62}
+\newcommand{\AnisoRelTmrTenAFiftySevenKOneCI}{[0.51, 0.63]}
+\newcommand{\AnisoRelTmrTenAFiftySevenKOneHi}{0.63}
+\newcommand{\AnisoRelTmrTenAFiftySevenKOneLo}{0.51}
+\newcommand{\AnisoRelTmrTenAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelTmrTenAFiftySevenKOne}{0.57}
+\newcommand{\AnisoRelTmrTenAFiftySevenKTwoCI}{[0.65, 0.76]}
+\newcommand{\AnisoRelTmrTenAFiftySevenKTwoHi}{0.76}
+\newcommand{\AnisoRelTmrTenAFiftySevenKTwoLo}{0.65}
+\newcommand{\AnisoRelTmrTenAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelTmrTenAFiftySevenKTwo}{0.70}
+\newcommand{\AnisoRelTmrTenAFourKOneCI}{[0.56, 0.68]}
+\newcommand{\AnisoRelTmrTenAFourKOneHi}{0.68}
+\newcommand{\AnisoRelTmrTenAFourKOneLo}{0.56}
+\newcommand{\AnisoRelTmrTenAFourKOneN}{8}
+\newcommand{\AnisoRelTmrTenAFourKOne}{0.62}
+\newcommand{\AnisoRelTmrTenAFourKTwoCI}{[0.69, 0.80]}
+\newcommand{\AnisoRelTmrTenAFourKTwoHi}{0.80}
+\newcommand{\AnisoRelTmrTenAFourKTwoLo}{0.69}
+\newcommand{\AnisoRelTmrTenAFourKTwoN}{8}
+\newcommand{\AnisoRelTmrTenAFourKTwo}{0.74}
+\newcommand{\AnisoRelTmrTenAOneKOneCI}{[0.59, 0.69]}
+\newcommand{\AnisoRelTmrTenAOneKOneHi}{0.69}
+\newcommand{\AnisoRelTmrTenAOneKOneLo}{0.59}
+\newcommand{\AnisoRelTmrTenAOneKOneN}{8}
+\newcommand{\AnisoRelTmrTenAOneKOne}{0.64}
+\newcommand{\AnisoRelTmrTenAOneKTwoCI}{[0.74, 0.84]}
+\newcommand{\AnisoRelTmrTenAOneKTwoHi}{0.84}
+\newcommand{\AnisoRelTmrTenAOneKTwoLo}{0.74}
+\newcommand{\AnisoRelTmrTenAOneKTwoN}{8}
+\newcommand{\AnisoRelTmrTenAOneKTwo}{0.79}
+\newcommand{\AnisoRelTmrTenASixteenKOneCI}{[0.55, 0.66]}
+\newcommand{\AnisoRelTmrTenASixteenKOneHi}{0.66}
+\newcommand{\AnisoRelTmrTenASixteenKOneLo}{0.55}
+\newcommand{\AnisoRelTmrTenASixteenKOneN}{8}
+\newcommand{\AnisoRelTmrTenASixteenKOne}{0.60}
+\newcommand{\AnisoRelTmrTenASixteenKTwoCI}{[0.68, 0.78]}
+\newcommand{\AnisoRelTmrTenASixteenKTwoHi}{0.78}
+\newcommand{\AnisoRelTmrTenASixteenKTwoLo}{0.68}
+\newcommand{\AnisoRelTmrTenASixteenKTwoN}{8}
+\newcommand{\AnisoRelTmrTenASixteenKTwo}{0.73}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKOneCI}{[0.47, 0.61]}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKOneHi}{0.61}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKOneLo}{0.47}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKOneN}{8}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKOne}{0.53}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKTwoCI}{[0.61, 0.73]}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKTwoHi}{0.73}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKTwoLo}{0.61}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKTwoN}{8}
+\newcommand{\AnisoRelTmrTwentyAFiftySevenKTwo}{0.67}
+\newcommand{\AnisoRelTmrTwentyAFourKOneCI}{[0.51, 0.63]}
+\newcommand{\AnisoRelTmrTwentyAFourKOneHi}{0.63}
+\newcommand{\AnisoRelTmrTwentyAFourKOneLo}{0.51}
+\newcommand{\AnisoRelTmrTwentyAFourKOneN}{8}
+\newcommand{\AnisoRelTmrTwentyAFourKOne}{0.56}
+\newcommand{\AnisoRelTmrTwentyAFourKTwoCI}{[0.63, 0.76]}
+\newcommand{\AnisoRelTmrTwentyAFourKTwoHi}{0.76}
+\newcommand{\AnisoRelTmrTwentyAFourKTwoLo}{0.63}
+\newcommand{\AnisoRelTmrTwentyAFourKTwoN}{8}
+\newcommand{\AnisoRelTmrTwentyAFourKTwo}{0.70}
+\newcommand{\AnisoRelTmrTwentyAOneKOneCI}{[0.53, 0.66]}
+\newcommand{\AnisoRelTmrTwentyAOneKOneHi}{0.66}
+\newcommand{\AnisoRelTmrTwentyAOneKOneLo}{0.53}
+\newcommand{\AnisoRelTmrTwentyAOneKOneN}{8}
+\newcommand{\AnisoRelTmrTwentyAOneKOne}{0.60}
+\newcommand{\AnisoRelTmrTwentyAOneKTwoCI}{[0.69, 0.82]}
+\newcommand{\AnisoRelTmrTwentyAOneKTwoHi}{0.82}
+\newcommand{\AnisoRelTmrTwentyAOneKTwoLo}{0.69}
+\newcommand{\AnisoRelTmrTwentyAOneKTwoN}{8}
+\newcommand{\AnisoRelTmrTwentyAOneKTwo}{0.76}
+\newcommand{\AnisoRelTmrTwentyASixteenKOneCI}{[0.49, 0.62]}
+\newcommand{\AnisoRelTmrTwentyASixteenKOneHi}{0.62}
+\newcommand{\AnisoRelTmrTwentyASixteenKOneLo}{0.49}
+\newcommand{\AnisoRelTmrTwentyASixteenKOneN}{8}
+\newcommand{\AnisoRelTmrTwentyASixteenKOne}{0.55}
+\newcommand{\AnisoRelTmrTwentyASixteenKTwoCI}{[0.62, 0.74]}
+\newcommand{\AnisoRelTmrTwentyASixteenKTwoHi}{0.74}
+\newcommand{\AnisoRelTmrTwentyASixteenKTwoLo}{0.62}
+\newcommand{\AnisoRelTmrTwentyASixteenKTwoN}{8}
+\newcommand{\AnisoRelTmrTwentyASixteenKTwo}{0.68}
+\newcommand{\AnisoShortcutVarAFiftySevenKOneCI}{[3.96, 7.50]}
+\newcommand{\AnisoShortcutVarAFiftySevenKOneHi}{7.50}
+\newcommand{\AnisoShortcutVarAFiftySevenKOneLo}{3.96}
+\newcommand{\AnisoShortcutVarAFiftySevenKOneN}{8}
+\newcommand{\AnisoShortcutVarAFiftySevenKOne}{5.97}
+\newcommand{\AnisoShortcutVarAFiftySevenKTwoCI}{[4.05, 7.40]}
+\newcommand{\AnisoShortcutVarAFiftySevenKTwoHi}{7.40}
+\newcommand{\AnisoShortcutVarAFiftySevenKTwoLo}{4.05}
+\newcommand{\AnisoShortcutVarAFiftySevenKTwoN}{8}
+\newcommand{\AnisoShortcutVarAFiftySevenKTwo}{5.86}
+\newcommand{\AnisoShortcutVarAFourKOneCI}{[1.39, 1.71]}
+\newcommand{\AnisoShortcutVarAFourKOneHi}{1.71}
+\newcommand{\AnisoShortcutVarAFourKOneLo}{1.39}
+\newcommand{\AnisoShortcutVarAFourKOneN}{8}
+\newcommand{\AnisoShortcutVarAFourKOne}{1.61}
+\newcommand{\AnisoShortcutVarAFourKTwoCI}{[1.36, 1.69]}
+\newcommand{\AnisoShortcutVarAFourKTwoHi}{1.69}
+\newcommand{\AnisoShortcutVarAFourKTwoLo}{1.36}
+\newcommand{\AnisoShortcutVarAFourKTwoN}{8}
+\newcommand{\AnisoShortcutVarAFourKTwo}{1.50}
+\newcommand{\AnisoShortcutVarAOneKOneCI}{[1.10, 1.10]}
+\newcommand{\AnisoShortcutVarAOneKOneHi}{1.10}
+\newcommand{\AnisoShortcutVarAOneKOneLo}{1.10}
+\newcommand{\AnisoShortcutVarAOneKOneN}{8}
+\newcommand{\AnisoShortcutVarAOneKOne}{1.10}
+\newcommand{\AnisoShortcutVarAOneKTwoCI}{[1.10, 1.10]}
+\newcommand{\AnisoShortcutVarAOneKTwoHi}{1.10}
+\newcommand{\AnisoShortcutVarAOneKTwoLo}{1.10}
+\newcommand{\AnisoShortcutVarAOneKTwoN}{8}
+\newcommand{\AnisoShortcutVarAOneKTwo}{1.10}
+\newcommand{\AnisoShortcutVarASixteenKOneCI}{[2.64, 4.04]}
+\newcommand{\AnisoShortcutVarASixteenKOneHi}{4.04}
+\newcommand{\AnisoShortcutVarASixteenKOneLo}{2.64}
+\newcommand{\AnisoShortcutVarASixteenKOneN}{8}
+\newcommand{\AnisoShortcutVarASixteenKOne}{3.28}
+\newcommand{\AnisoShortcutVarASixteenKTwoCI}{[2.58, 3.95]}
+\newcommand{\AnisoShortcutVarASixteenKTwoHi}{3.95}
+\newcommand{\AnisoShortcutVarASixteenKTwoLo}{2.58}
+\newcommand{\AnisoShortcutVarASixteenKTwoN}{8}
+\newcommand{\AnisoShortcutVarASixteenKTwo}{3.29}
+\newcommand{\AnisoTmrMAFiftySevenKOneCI}{[0.53, 0.65]}
+\newcommand{\AnisoTmrMAFiftySevenKOneHi}{0.65}
+\newcommand{\AnisoTmrMAFiftySevenKOneLo}{0.53}
+\newcommand{\AnisoTmrMAFiftySevenKOneN}{24}
+\newcommand{\AnisoTmrMAFiftySevenKOne}{0.61}
+\newcommand{\AnisoTmrMAFiftySevenKTwoCI}{[0.67, 0.73]}
+\newcommand{\AnisoTmrMAFiftySevenKTwoHi}{0.73}
+\newcommand{\AnisoTmrMAFiftySevenKTwoLo}{0.67}
+\newcommand{\AnisoTmrMAFiftySevenKTwoN}{24}
+\newcommand{\AnisoTmrMAFiftySevenKTwo}{0.69}
+\newcommand{\AnisoTmrMAFourKOneCI}{[0.62, 0.69]}
+\newcommand{\AnisoTmrMAFourKOneHi}{0.69}
+\newcommand{\AnisoTmrMAFourKOneLo}{0.62}
+\newcommand{\AnisoTmrMAFourKOneN}{24}
+\newcommand{\AnisoTmrMAFourKOne}{0.65}
+\newcommand{\AnisoTmrMAFourKTwoCI}{[0.74, 0.77]}
+\newcommand{\AnisoTmrMAFourKTwoHi}{0.77}
+\newcommand{\AnisoTmrMAFourKTwoLo}{0.74}
+\newcommand{\AnisoTmrMAFourKTwoN}{24}
+\newcommand{\AnisoTmrMAFourKTwo}{0.75}
+\newcommand{\AnisoTmrMAOneKOneCI}{[0.63, 0.66]}
+\newcommand{\AnisoTmrMAOneKOneHi}{0.66}
+\newcommand{\AnisoTmrMAOneKOneLo}{0.63}
+\newcommand{\AnisoTmrMAOneKOneN}{24}
+\newcommand{\AnisoTmrMAOneKOne}{0.65}
+\newcommand{\AnisoTmrMAOneKTwoCI}{[0.76, 0.78]}
+\newcommand{\AnisoTmrMAOneKTwoHi}{0.78}
+\newcommand{\AnisoTmrMAOneKTwoLo}{0.76}
+\newcommand{\AnisoTmrMAOneKTwoN}{24}
+\newcommand{\AnisoTmrMAOneKTwo}{0.77}
+\newcommand{\AnisoTmrMASixteenKOneCI}{[0.60, 0.68]}
+\newcommand{\AnisoTmrMASixteenKOneHi}{0.68}
+\newcommand{\AnisoTmrMASixteenKOneLo}{0.60}
+\newcommand{\AnisoTmrMASixteenKOneN}{24}
+\newcommand{\AnisoTmrMASixteenKOne}{0.64}
+\newcommand{\AnisoTmrMASixteenKTwoCI}{[0.71, 0.75]}
+\newcommand{\AnisoTmrMASixteenKTwoHi}{0.75}
+\newcommand{\AnisoTmrMASixteenKTwoLo}{0.71}
+\newcommand{\AnisoTmrMASixteenKTwoN}{24}
+\newcommand{\AnisoTmrMASixteenKTwo}{0.72}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKOneCI}{[21\%, 41\%]}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKOneHi}{41\%}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKOneLo}{21\%}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKOneN}{24}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKOne}{31\%}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKTwoCI}{[6\%, 23\%]}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKTwoHi}{23\%}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKTwoLo}{6\%}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKTwoN}{24}
+\newcommand{\AnisoTmrOverLearnedAFiftySevenKTwo}{17\%}
+\newcommand{\AnisoTmrOverLearnedAFourKOneCI}{[25\%, 35\%]}
+\newcommand{\AnisoTmrOverLearnedAFourKOneHi}{35\%}
+\newcommand{\AnisoTmrOverLearnedAFourKOneLo}{25\%}
+\newcommand{\AnisoTmrOverLearnedAFourKOneN}{24}
+\newcommand{\AnisoTmrOverLearnedAFourKOne}{30\%}
+\newcommand{\AnisoTmrOverLearnedAFourKTwoCI}{[18\%, 22\%]}
+\newcommand{\AnisoTmrOverLearnedAFourKTwoHi}{22\%}
+\newcommand{\AnisoTmrOverLearnedAFourKTwoLo}{18\%}
+\newcommand{\AnisoTmrOverLearnedAFourKTwoN}{24}
+\newcommand{\AnisoTmrOverLearnedAFourKTwo}{20\%}
+\newcommand{\AnisoTmrOverLearnedAOneKOneCI}{[14\%, 20\%]}
+\newcommand{\AnisoTmrOverLearnedAOneKOneHi}{20\%}
+\newcommand{\AnisoTmrOverLearnedAOneKOneLo}{14\%}
+\newcommand{\AnisoTmrOverLearnedAOneKOneN}{24}
+\newcommand{\AnisoTmrOverLearnedAOneKOne}{18\%}
+\newcommand{\AnisoTmrOverLearnedAOneKTwoCI}{[8\%, 12\%]}
+\newcommand{\AnisoTmrOverLearnedAOneKTwoHi}{12\%}
+\newcommand{\AnisoTmrOverLearnedAOneKTwoLo}{8\%}
+\newcommand{\AnisoTmrOverLearnedAOneKTwoN}{24}
+\newcommand{\AnisoTmrOverLearnedAOneKTwo}{10\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKOneCI}{[16\%, 33\%]}
+\newcommand{\AnisoTmrOverLearnedASixteenKOneHi}{33\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKOneLo}{16\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKOneN}{24}
+\newcommand{\AnisoTmrOverLearnedASixteenKOne}{25\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKTwoCI}{[6\%, 18\%]}
+\newcommand{\AnisoTmrOverLearnedASixteenKTwoHi}{18\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKTwoLo}{6\%}
+\newcommand{\AnisoTmrOverLearnedASixteenKTwoN}{24}
+\newcommand{\AnisoTmrOverLearnedASixteenKTwo}{11\%}
+\newcommand{\AnisoTmrWAFiftySevenKOneCI}{[0.66, 0.81]}
+\newcommand{\AnisoTmrWAFiftySevenKOneHi}{0.81}
+\newcommand{\AnisoTmrWAFiftySevenKOneLo}{0.66}
+\newcommand{\AnisoTmrWAFiftySevenKOneN}{24}
+\newcommand{\AnisoTmrWAFiftySevenKOne}{0.71}
+\newcommand{\AnisoTmrWAFiftySevenKTwoCI}{[0.76, 0.86]}
+\newcommand{\AnisoTmrWAFiftySevenKTwoHi}{0.86}
+\newcommand{\AnisoTmrWAFiftySevenKTwoLo}{0.76}
+\newcommand{\AnisoTmrWAFiftySevenKTwoN}{24}
+\newcommand{\AnisoTmrWAFiftySevenKTwo}{0.80}
+\newcommand{\AnisoTmrWAFourKOneCI}{[0.87, 0.98]}
+\newcommand{\AnisoTmrWAFourKOneHi}{0.98}
+\newcommand{\AnisoTmrWAFourKOneLo}{0.87}
+\newcommand{\AnisoTmrWAFourKOneN}{24}
+\newcommand{\AnisoTmrWAFourKOne}{0.91}
+\newcommand{\AnisoTmrWAFourKTwoCI}{[0.91, 0.95]}
+\newcommand{\AnisoTmrWAFourKTwoHi}{0.95}
+\newcommand{\AnisoTmrWAFourKTwoLo}{0.91}
+\newcommand{\AnisoTmrWAFourKTwoN}{24}
+\newcommand{\AnisoTmrWAFourKTwo}{0.93}
+\newcommand{\AnisoTmrWAOneKOneCI}{[0.68, 0.73]}
+\newcommand{\AnisoTmrWAOneKOneHi}{0.73}
+\newcommand{\AnisoTmrWAOneKOneLo}{0.68}
+\newcommand{\AnisoTmrWAOneKOneN}{24}
+\newcommand{\AnisoTmrWAOneKOne}{0.70}
+\newcommand{\AnisoTmrWAOneKTwoCI}{[0.79, 0.82]}
+\newcommand{\AnisoTmrWAOneKTwoHi}{0.82}
+\newcommand{\AnisoTmrWAOneKTwoLo}{0.79}
+\newcommand{\AnisoTmrWAOneKTwoN}{24}
+\newcommand{\AnisoTmrWAOneKTwo}{0.81}
+\newcommand{\AnisoTmrWASixteenKOneCI}{[0.68, 0.82]}
+\newcommand{\AnisoTmrWASixteenKOneHi}{0.82}
+\newcommand{\AnisoTmrWASixteenKOneLo}{0.68}
+\newcommand{\AnisoTmrWASixteenKOneN}{24}
+\newcommand{\AnisoTmrWASixteenKOne}{0.71}
+\newcommand{\AnisoTmrWASixteenKTwoCI}{[0.77, 0.86]}
+\newcommand{\AnisoTmrWASixteenKTwoHi}{0.86}
+\newcommand{\AnisoTmrWASixteenKTwoLo}{0.77}
+\newcommand{\AnisoTmrWASixteenKTwoN}{24}
+\newcommand{\AnisoTmrWASixteenKTwo}{0.82}
+\newcommand{\AucHalfCI}{[0.52, 0.55]}
+\newcommand{\AucHalfHi}{0.55}
+\newcommand{\AucHalfLo}{0.52}
+\newcommand{\AucHalfN}{48}
+\newcommand{\AucHalf}{0.54}
+\newcommand{\AucOneCI}{[0.65, 0.70]}
+\newcommand{\AucOneHi}{0.70}
+\newcommand{\AucOneLo}{0.65}
+\newcommand{\AucOneN}{48}
+\newcommand{\AucOne}{0.68}
+\newcommand{\AucThreeCI}{[0.92, 0.97]}
+\newcommand{\AucThreeHi}{0.97}
+\newcommand{\AucThreeLo}{0.92}
+\newcommand{\AucThreeN}{48}
+\newcommand{\AucThree}{0.95}
+\newcommand{\BoundSlackKOne}{1.62\mbox{--}2.78}
+\newcommand{\BoundSlackKTwo}{1.65\mbox{--}2.80}
+\newcommand{\BoundSlackNewMedCI}{[1.0003, 1.0006]}
+\newcommand{\BoundSlackNewMedHi}{1.0006}
+\newcommand{\BoundSlackNewMedLo}{1.0003}
+\newcommand{\BoundSlackNewMedN}{60}
+\newcommand{\BoundSlackNewMed}{1.0005}
+\newcommand{\BoundSlackNew}{1.000\mbox{--}1.016}
+\newcommand{\BoundSlackOldMedCI}{[1.94, 2.14]}
+\newcommand{\BoundSlackOldMedHi}{2.14}
+\newcommand{\BoundSlackOldMedLo}{1.94}
+\newcommand{\BoundSlackOldMedN}{60}
+\newcommand{\BoundSlackOldMed}{2.04}
+\newcommand{\BoundSlackOld}{1.32\mbox{--}3.76}
+\newcommand{\BreachGlsKOne}{0.26}
+\newcommand{\BreachGlsKTwo}{0.51}
+\newcommand{\BreachGlsPctKOne}{15\%}
+\newcommand{\BreachGlsPctKTwo}{29\%}
+\newcommand{\BreachLimitKOne}{0.14}
+\newcommand{\BreachLimitKTwo}{0.27}
+\newcommand{\BreachMargin}{1.75}
+\newcommand{\BreachSlackKOne}{1.22}
+\newcommand{\BreachSlackKTwo}{1.22}
+\newcommand{\BreachTmrKOne}{0.17}
+\newcommand{\BreachTmrKTwo}{0.33}
+\newcommand{\BreachTmrPctKOne}{9\%}
+\newcommand{\BreachTmrPctKTwo}{19\%}
+\newcommand{\CleanCostTenKOneCI}{[5.4\%, 6.9\%]}
+\newcommand{\CleanCostTenKOneHi}{6.9\%}
+\newcommand{\CleanCostTenKOneLo}{5.4\%}
+\newcommand{\CleanCostTenKOneN}{8}
+\newcommand{\CleanCostTenKOne}{6.2\%}
+\newcommand{\CleanCostTenKTwoCI}{[5.3\%, 6.7\%]}
+\newcommand{\CleanCostTenKTwoHi}{6.7\%}
+\newcommand{\CleanCostTenKTwoLo}{5.3\%}
+\newcommand{\CleanCostTenKTwoN}{8}
+\newcommand{\CleanCostTenKTwo}{6.0\%}
+\newcommand{\DispHalfCI}{[0.26, 0.30]}
+\newcommand{\DispHalfHi}{0.30}
+\newcommand{\DispHalfLo}{0.26}
+\newcommand{\DispHalfN}{48}
+\newcommand{\DispHalf}{0.28}
+\newcommand{\DispOneCI}{[0.53, 0.59]}
+\newcommand{\DispOneHi}{0.59}
+\newcommand{\DispOneLo}{0.53}
+\newcommand{\DispOneN}{48}
+\newcommand{\DispOne}{0.56}
+\newcommand{\DispThreeCI}{[1.59, 1.78]}
+\newcommand{\DispThreeHi}{1.78}
+\newcommand{\DispThreeLo}{1.59}
+\newcommand{\DispThreeN}{48}
+\newcommand{\DispThree}{1.68}
+\newcommand{\FactHomoAvgFullKOneCI}{[1.00, 1.00]}
+\newcommand{\FactHomoAvgFullKOneHi}{1.00}
+\newcommand{\FactHomoAvgFullKOneLo}{1.00}
+\newcommand{\FactHomoAvgFullKOneN}{24}
+\newcommand{\FactHomoAvgFullKOne}{1.00}
+\newcommand{\FactHomoAvgFullKTwoCI}{[1.00, 1.00]}
+\newcommand{\FactHomoAvgFullKTwoHi}{1.00}
+\newcommand{\FactHomoAvgFullKTwoLo}{1.00}
+\newcommand{\FactHomoAvgFullKTwoN}{24}
+\newcommand{\FactHomoAvgFullKTwo}{1.00}
+\newcommand{\FactHomoLearnedKOneCI}{[1.00, 1.00]}
+\newcommand{\FactHomoLearnedKOneHi}{1.00}
+\newcommand{\FactHomoLearnedKOneLo}{1.00}
+\newcommand{\FactHomoLearnedKOneN}{24}
+\newcommand{\FactHomoLearnedKOne}{1.00}
+\newcommand{\FactHomoLearnedKTwoCI}{[1.00, 1.00]}
+\newcommand{\FactHomoLearnedKTwoHi}{1.00}
+\newcommand{\FactHomoLearnedKTwoLo}{1.00}
+\newcommand{\FactHomoLearnedKTwoN}{24}
+\newcommand{\FactHomoLearnedKTwo}{1.00}
+\newcommand{\FactHomoTmrMKOneCI}{[0.74, 0.78]}
+\newcommand{\FactHomoTmrMKOneHi}{0.78}
+\newcommand{\FactHomoTmrMKOneLo}{0.74}
+\newcommand{\FactHomoTmrMKOneN}{24}
+\newcommand{\FactHomoTmrMKOne}{0.75}
+\newcommand{\FactHomoTmrMKTwoCI}{[0.83, 0.86]}
+\newcommand{\FactHomoTmrMKTwoHi}{0.86}
+\newcommand{\FactHomoTmrMKTwoLo}{0.83}
+\newcommand{\FactHomoTmrMKTwoN}{24}
+\newcommand{\FactHomoTmrMKTwo}{0.84}
+\newcommand{\FactHomoTmrWKOneCI}{[0.79, 0.83]}
+\newcommand{\FactHomoTmrWKOneHi}{0.83}
+\newcommand{\FactHomoTmrWKOneLo}{0.79}
+\newcommand{\FactHomoTmrWKOneN}{24}
+\newcommand{\FactHomoTmrWKOne}{0.81}
+\newcommand{\FactHomoTmrWKTwoCI}{[0.88, 0.92]}
+\newcommand{\FactHomoTmrWKTwoHi}{0.92}
+\newcommand{\FactHomoTmrWKTwoLo}{0.88}
+\newcommand{\FactHomoTmrWKTwoN}{24}
+\newcommand{\FactHomoTmrWKTwo}{0.89}
+\newcommand{\FactLearnedShareCI}{[53\%, 71\%]}
+\newcommand{\FactLearnedShareHi}{71\%}
+\newcommand{\FactLearnedShareLo}{53\%}
+\newcommand{\FactLearnedShareN}{24}
+\newcommand{\FactLearnedShare}{61\%}
+\newcommand{\FactRandAvgFullKOneCI}{[0.74, 0.82]}
+\newcommand{\FactRandAvgFullKOneHi}{0.82}
+\newcommand{\FactRandAvgFullKOneLo}{0.74}
+\newcommand{\FactRandAvgFullKOneN}{24}
+\newcommand{\FactRandAvgFullKOne}{0.78}
+\newcommand{\FactRandAvgFullKTwoCI}{[0.84, 0.87]}
+\newcommand{\FactRandAvgFullKTwoHi}{0.87}
+\newcommand{\FactRandAvgFullKTwoLo}{0.84}
+\newcommand{\FactRandAvgFullKTwoN}{24}
+\newcommand{\FactRandAvgFullKTwo}{0.85}
+\newcommand{\FactRandLearnedKOneCI}{[0.75, 0.82]}
+\newcommand{\FactRandLearnedKOneHi}{0.82}
+\newcommand{\FactRandLearnedKOneLo}{0.75}
+\newcommand{\FactRandLearnedKOneN}{24}
+\newcommand{\FactRandLearnedKOne}{0.79}
+\newcommand{\FactRandLearnedKTwoCI}{[0.84, 0.88]}
+\newcommand{\FactRandLearnedKTwoHi}{0.88}
+\newcommand{\FactRandLearnedKTwoLo}{0.84}
+\newcommand{\FactRandLearnedKTwoN}{24}
+\newcommand{\FactRandLearnedKTwo}{0.86}
+\newcommand{\FactRandTmrMKOneCI}{[0.63, 0.66]}
+\newcommand{\FactRandTmrMKOneHi}{0.66}
+\newcommand{\FactRandTmrMKOneLo}{0.63}
+\newcommand{\FactRandTmrMKOneN}{24}
+\newcommand{\FactRandTmrMKOne}{0.65}
+\newcommand{\FactRandTmrMKTwoCI}{[0.76, 0.78]}
+\newcommand{\FactRandTmrMKTwoHi}{0.78}
+\newcommand{\FactRandTmrMKTwoLo}{0.76}
+\newcommand{\FactRandTmrMKTwoN}{24}
+\newcommand{\FactRandTmrMKTwo}{0.77}
+\newcommand{\FactRandTmrWKOneCI}{[0.68, 0.73]}
+\newcommand{\FactRandTmrWKOneHi}{0.73}
+\newcommand{\FactRandTmrWKOneLo}{0.68}
+\newcommand{\FactRandTmrWKOneN}{24}
+\newcommand{\FactRandTmrWKOne}{0.70}
+\newcommand{\FactRandTmrWKTwoCI}{[0.79, 0.82]}
+\newcommand{\FactRandTmrWKTwoHi}{0.82}
+\newcommand{\FactRandTmrWKTwoLo}{0.79}
+\newcommand{\FactRandTmrWKTwoN}{24}
+\newcommand{\FactRandTmrWKTwo}{0.81}
+\newcommand{\FactTmrOverLearnedCI}{[14\%, 20\%]}
+\newcommand{\FactTmrOverLearnedHi}{20\%}
+\newcommand{\FactTmrOverLearnedLo}{14\%}
+\newcommand{\FactTmrOverLearnedN}{24}
+\newcommand{\FactTmrOverLearned}{18\%}
+\newcommand{\FactVertAvgFullKOne}{0.76}
+\newcommand{\FactVertAvgFullKTwo}{0.85}
+\newcommand{\FactVertLearnedKOne}{0.82}
+\newcommand{\FactVertLearnedKTwo}{0.87}
+\newcommand{\FactVertTmrMKOne}{0.63}
+\newcommand{\FactVertTmrMKTwo}{0.73}
+\newcommand{\FactVertTmrWKOne}{0.68}
+\newcommand{\FactVertTmrWKTwo}{0.79}
+\newcommand{\FreAttHalfCI}{[0.52, 0.52]}
+\newcommand{\FreAttHalfHi}{0.52}
+\newcommand{\FreAttHalfLo}{0.52}
+\newcommand{\FreAttHalfN}{48}
+\newcommand{\FreAttHalf}{0.52}
+\newcommand{\FreAttOneCI}{[0.56, 0.57]}
+\newcommand{\FreAttOneHi}{0.57}
+\newcommand{\FreAttOneLo}{0.56}
+\newcommand{\FreAttOneN}{48}
+\newcommand{\FreAttOne}{0.57}
+\newcommand{\FreAttThreeCI}{[0.91, 0.96]}
+\newcommand{\FreAttThreeHi}{0.96}
+\newcommand{\FreAttThreeLo}{0.91}
+\newcommand{\FreAttThreeN}{48}
+\newcommand{\FreAttThree}{0.93}
+\newcommand{\FreCleanHalfCI}{[0.50, 0.50]}
+\newcommand{\FreCleanHalfHi}{0.50}
+\newcommand{\FreCleanHalfLo}{0.50}
+\newcommand{\FreCleanHalfN}{48}
+\newcommand{\FreCleanHalf}{0.50}
+\newcommand{\FreCleanOneCI}{[0.50, 0.50]}
+\newcommand{\FreCleanOneHi}{0.50}
+\newcommand{\FreCleanOneLo}{0.50}
+\newcommand{\FreCleanOneN}{48}
+\newcommand{\FreCleanOne}{0.50}
+\newcommand{\FreCleanThreeCI}{[0.50, 0.50]}
+\newcommand{\FreCleanThreeHi}{0.50}
+\newcommand{\FreCleanThreeLo}{0.50}
+\newcommand{\FreCleanThreeN}{48}
+\newcommand{\FreCleanThree}{0.50}
+\newcommand{\HeadRedTmrTenKOneCI}{[31\%, 41\%]}
+\newcommand{\HeadRedTmrTenKOneHi}{41\%}
+\newcommand{\HeadRedTmrTenKOneLo}{31\%}
+\newcommand{\HeadRedTmrTenKOneN}{8}
+\newcommand{\HeadRedTmrTenKOne}{36\%}
+\newcommand{\HeadRedTmrTenKTwoCI}{[16\%, 26\%]}
+\newcommand{\HeadRedTmrTenKTwoHi}{26\%}
+\newcommand{\HeadRedTmrTenKTwoLo}{16\%}
+\newcommand{\HeadRedTmrTenKTwoN}{8}
+\newcommand{\HeadRedTmrTenKTwo}{21\%}
+\newcommand{\HeadRedTmrTwentyKOneCI}{[34\%, 47\%]}
+\newcommand{\HeadRedTmrTwentyKOneHi}{47\%}
+\newcommand{\HeadRedTmrTwentyKOneLo}{34\%}
+\newcommand{\HeadRedTmrTwentyKOneN}{8}
+\newcommand{\HeadRedTmrTwentyKOne}{40\%}
+\newcommand{\HeadRedTmrTwentyKTwoCI}{[18\%, 31\%]}
+\newcommand{\HeadRedTmrTwentyKTwoHi}{31\%}
+\newcommand{\HeadRedTmrTwentyKTwoLo}{18\%}
+\newcommand{\HeadRedTmrTwentyKTwoN}{8}
+\newcommand{\HeadRedTmrTwentyKTwo}{24\%}
+\newcommand{\InitMaxAngle}{170}
+\newcommand{\InitMaxDiff}{8.3\times 10^{-14}}
+\newcommand{\InitMaxIters}{16}
+\newcommand{\InitMaxTrans}{200}
+\newcommand{\LinAtHalf}{0.46\%}
+\newcommand{\LinAtTwo}{1.7\%}
+\newcommand{\LinSlope}{1.001}
+\newcommand{\MaxGap}{5.8\times 10^{-3}}
+\newcommand{\MedGap}{7.3\times 10^{-4}}
+\newcommand{\NAniso}{8}
+\newcommand{\NDesigns}{5{,}760}
+\newcommand{\NFactorial}{50}
+\newcommand{\NGeom}{720}
+\newcommand{\NInitPose}{84}
+\newcommand{\NLimits}{60}
+\newcommand{\NNonlinearGeom}{8}
+\newcommand{\NNonlinear}{48}
+\newcommand{\NRegime}{624}
+\newcommand{\NScaleGeom}{108}
+\newcommand{\NStealth}{48}
+\newcommand{\NWorkspace}{160}
+\newcommand{\PredMedErr}{0.1\%}
+\newcommand{\PredN}{192}
+\newcommand{\PredPNFErr}{0.5\%}
+\newcommand{\QiuDev}{7.0\times 10^{-8}}
+\newcommand{\QiuHullDev}{4.2\times 10^{-8}}
+\newcommand{\QiuHullN}{10}
+\newcommand{\QiuN}{16}
+\newcommand{\RatioKOneFiveCI}{[0.76, 0.78]}
+\newcommand{\RatioKOneFiveHi}{0.78}
+\newcommand{\RatioKOneFiveLo}{0.76}
+\newcommand{\RatioKOneFiveN}{360}
+\newcommand{\RatioKOneFive}{0.77}
+\newcommand{\RatioKOneTenCI}{[0.71, 0.73]}
+\newcommand{\RatioKOneTenHi}{0.73}
+\newcommand{\RatioKOneTenLo}{0.71}
+\newcommand{\RatioKOneTenN}{360}
+\newcommand{\RatioKOneTen}{0.72}
+\newcommand{\RatioKOneTwentyCI}{[0.66, 0.69]}
+\newcommand{\RatioKOneTwentyHi}{0.69}
+\newcommand{\RatioKOneTwentyLo}{0.66}
+\newcommand{\RatioKOneTwentyN}{360}
+\newcommand{\RatioKOneTwenty}{0.68}
+\newcommand{\RatioKTwoFiveCI}{[0.83, 0.84]}
+\newcommand{\RatioKTwoFiveHi}{0.84}
+\newcommand{\RatioKTwoFiveLo}{0.83}
+\newcommand{\RatioKTwoFiveN}{360}
+\newcommand{\RatioKTwoFive}{0.83}
+\newcommand{\RatioKTwoTenCI}{[0.79, 0.81]}
+\newcommand{\RatioKTwoTenHi}{0.81}
+\newcommand{\RatioKTwoTenLo}{0.79}
+\newcommand{\RatioKTwoTenN}{360}
+\newcommand{\RatioKTwoTen}{0.80}
+\newcommand{\RatioKTwoTwentyCI}{[0.76, 0.78]}
+\newcommand{\RatioKTwoTwentyHi}{0.78}
+\newcommand{\RatioKTwoTwentyLo}{0.76}
+\newcommand{\RatioKTwoTwentyN}{360}
+\newcommand{\RatioKTwoTwenty}{0.77}
+\newcommand{\RedKOneFiveCI}{[22\%, 24\%]}
+\newcommand{\RedKOneFiveHi}{24\%}
+\newcommand{\RedKOneFiveLo}{22\%}
+\newcommand{\RedKOneFiveN}{360}
+\newcommand{\RedKOneFive}{23\%}
+\newcommand{\RedKOneTenCI}{[27\%, 29\%]}
+\newcommand{\RedKOneTenHi}{29\%}
+\newcommand{\RedKOneTenLo}{27\%}
+\newcommand{\RedKOneTenN}{360}
+\newcommand{\RedKOneTen}{28\%}
+\newcommand{\RedKOneTwentyCI}{[31\%, 34\%]}
+\newcommand{\RedKOneTwentyHi}{34\%}
+\newcommand{\RedKOneTwentyLo}{31\%}
+\newcommand{\RedKOneTwentyN}{360}
+\newcommand{\RedKOneTwenty}{32\%}
+\newcommand{\RedKTwoFiveCI}{[16\%, 17\%]}
+\newcommand{\RedKTwoFiveHi}{17\%}
+\newcommand{\RedKTwoFiveLo}{16\%}
+\newcommand{\RedKTwoFiveN}{360}
+\newcommand{\RedKTwoFive}{17\%}
+\newcommand{\RedKTwoTenCI}{[19\%, 21\%]}
+\newcommand{\RedKTwoTenHi}{21\%}
+\newcommand{\RedKTwoTenLo}{19\%}
+\newcommand{\RedKTwoTenN}{360}
+\newcommand{\RedKTwoTen}{20\%}
+\newcommand{\RedKTwoTwentyCI}{[22\%, 24\%]}
+\newcommand{\RedKTwoTwentyHi}{24\%}
+\newcommand{\RedKTwoTwentyLo}{22\%}
+\newcommand{\RedKTwoTwentyN}{360}
+\newcommand{\RedKTwoTwenty}{23\%}
+\newcommand{\RegimeCentroidOverLimitCI}{[1.14, 1.21]}
+\newcommand{\RegimeCentroidOverLimitHi}{1.21}
+\newcommand{\RegimeCentroidOverLimitLo}{1.14}
+\newcommand{\RegimeCentroidOverLimitN}{24}
+\newcommand{\RegimeCentroidOverLimit}{1.18}
+\newcommand{\RegimeCentroidRatioCI}{[0.54, 0.61]}
+\newcommand{\RegimeCentroidRatioHi}{0.61}
+\newcommand{\RegimeCentroidRatioKTwoCI}{[0.67, 0.72]}
+\newcommand{\RegimeCentroidRatioKTwoHi}{0.72}
+\newcommand{\RegimeCentroidRatioKTwoLo}{0.67}
+\newcommand{\RegimeCentroidRatioKTwoN}{24}
+\newcommand{\RegimeCentroidRatioKTwo}{0.70}
+\newcommand{\RegimeCentroidRatioLo}{0.54}
+\newcommand{\RegimeCentroidRatioN}{24}
+\newcommand{\RegimeCentroidRatio}{0.59}
+\newcommand{\RegimeCondFlatRatioCI}{[0.72, 0.82]}
+\newcommand{\RegimeCondFlatRatioHi}{0.82}
+\newcommand{\RegimeCondFlatRatioLo}{0.72}
+\newcommand{\RegimeCondFlatRatioN}{24}
+\newcommand{\RegimeCondFlatRatio}{0.78}
+\newcommand{\RegimeCondOneRatioCI}{[0.68, 0.75]}
+\newcommand{\RegimeCondOneRatioHi}{0.75}
+\newcommand{\RegimeCondOneRatioLo}{0.68}
+\newcommand{\RegimeCondOneRatioN}{24}
+\newcommand{\RegimeCondOneRatio}{0.71}
+\newcommand{\RegimeCondOutlierRatioCI}{[0.68, 0.77]}
+\newcommand{\RegimeCondOutlierRatioHi}{0.77}
+\newcommand{\RegimeCondOutlierRatioLo}{0.68}
+\newcommand{\RegimeCondOutlierRatioN}{24}
+\newcommand{\RegimeCondOutlierRatio}{0.72}
+\newcommand{\RegimeCondTenthRatioCI}{[0.73, 0.81]}
+\newcommand{\RegimeCondTenthRatioHi}{0.81}
+\newcommand{\RegimeCondTenthRatioLo}{0.73}
+\newcommand{\RegimeCondTenthRatioN}{24}
+\newcommand{\RegimeCondTenthRatio}{0.78}
+\newcommand{\RegimeEightyRatioCI}{[0.66, 0.73]}
+\newcommand{\RegimeEightyRatioHi}{0.73}
+\newcommand{\RegimeEightyRatioLo}{0.66}
+\newcommand{\RegimeEightyRatioN}{24}
+\newcommand{\RegimeEightyRatio}{0.70}
+\newcommand{\RegimeFarRatioCI}{[0.68, 0.72]}
+\newcommand{\RegimeFarRatioHi}{0.72}
+\newcommand{\RegimeFarRatioLo}{0.68}
+\newcommand{\RegimeFarRatioN}{24}
+\newcommand{\RegimeFarRatio}{0.70}
+\newcommand{\RegimeInHullRatioCI}{[0.58, 0.63]}
+\newcommand{\RegimeInHullRatioHi}{0.63}
+\newcommand{\RegimeInHullRatioLo}{0.58}
+\newcommand{\RegimeInHullRatioN}{73}
+\newcommand{\RegimeInHullRatio}{0.61}
+\newcommand{\RegimeNFiveRatioCI}{[0.75, 0.80]}
+\newcommand{\RegimeNFiveRatioHi}{0.80}
+\newcommand{\RegimeNFiveRatioKTwoCI}{[0.83, 0.87]}
+\newcommand{\RegimeNFiveRatioKTwoHi}{0.87}
+\newcommand{\RegimeNFiveRatioKTwoLo}{0.83}
+\newcommand{\RegimeNFiveRatioKTwoN}{24}
+\newcommand{\RegimeNFiveRatioKTwo}{0.85}
+\newcommand{\RegimeNFiveRatioLo}{0.75}
+\newcommand{\RegimeNFiveRatioN}{24}
+\newcommand{\RegimeNFiveRatio}{0.77}
+\newcommand{\RegimeNFortyRatioCI}{[0.44, 0.49]}
+\newcommand{\RegimeNFortyRatioHi}{0.49}
+\newcommand{\RegimeNFortyRatioKTwoCI}{[0.50, 0.54]}
+\newcommand{\RegimeNFortyRatioKTwoHi}{0.54}
+\newcommand{\RegimeNFortyRatioKTwoLo}{0.50}
+\newcommand{\RegimeNFortyRatioKTwoN}{24}
+\newcommand{\RegimeNFortyRatioKTwo}{0.52}
+\newcommand{\RegimeNFortyRatioLo}{0.44}
+\newcommand{\RegimeNFortyRatioN}{24}
+\newcommand{\RegimeNFortyRatio}{0.46}
+\newcommand{\RegimeNFourGmOverLimitCI}{[1.24, 1.41]}
+\newcommand{\RegimeNFourGmOverLimitHi}{1.41}
+\newcommand{\RegimeNFourGmOverLimitLo}{1.24}
+\newcommand{\RegimeNFourGmOverLimitN}{24}
+\newcommand{\RegimeNFourGmOverLimit}{1.29}
+\newcommand{\RegimeNFourOverLimitCI}{[1.03, 1.10]}
+\newcommand{\RegimeNFourOverLimitHi}{1.10}
+\newcommand{\RegimeNFourOverLimitLo}{1.03}
+\newcommand{\RegimeNFourOverLimitN}{24}
+\newcommand{\RegimeNFourOverLimit}{1.04}
+\newcommand{\RegimeNFourRatioCI}{[0.80, 0.85]}
+\newcommand{\RegimeNFourRatioHi}{0.85}
+\newcommand{\RegimeNFourRatioKTwoCI}{[0.89, 0.94]}
+\newcommand{\RegimeNFourRatioKTwoHi}{0.94}
+\newcommand{\RegimeNFourRatioKTwoLo}{0.89}
+\newcommand{\RegimeNFourRatioKTwoN}{24}
+\newcommand{\RegimeNFourRatioKTwo}{0.92}
+\newcommand{\RegimeNFourRatioLo}{0.80}
+\newcommand{\RegimeNFourRatioN}{24}
+\newcommand{\RegimeNFourRatio}{0.82}
+\newcommand{\RegimeNInHull}{73}
+\newcommand{\RegimeNSevenRatioCI}{[0.65, 0.73]}
+\newcommand{\RegimeNSevenRatioHi}{0.73}
+\newcommand{\RegimeNSevenRatioKTwoCI}{[0.77, 0.81]}
+\newcommand{\RegimeNSevenRatioKTwoHi}{0.81}
+\newcommand{\RegimeNSevenRatioKTwoLo}{0.77}
+\newcommand{\RegimeNSevenRatioKTwoN}{24}
+\newcommand{\RegimeNSevenRatioKTwo}{0.79}
+\newcommand{\RegimeNSevenRatioLo}{0.65}
+\newcommand{\RegimeNSevenRatioN}{24}
+\newcommand{\RegimeNSevenRatio}{0.68}
+\newcommand{\RegimeNearFloorN}{77}
+\newcommand{\RegimeNearFloorRatioCI}{[0.89, 0.91]}
+\newcommand{\RegimeNearFloorRatioHi}{0.91}
+\newcommand{\RegimeNearFloorRatioLo}{0.89}
+\newcommand{\RegimeNearFloorRatioN}{77}
+\newcommand{\RegimeNearFloorRatio}{0.90}
+\newcommand{\RegimeNoiseDefaultRatioCI}{[0.63, 0.70]}
+\newcommand{\RegimeNoiseDefaultRatioHi}{0.70}
+\newcommand{\RegimeNoiseDefaultRatioLo}{0.63}
+\newcommand{\RegimeNoiseDefaultRatioN}{24}
+\newcommand{\RegimeNoiseDefaultRatio}{0.66}
+\newcommand{\RegimeNoiseHomoRatioCI}{[0.71, 0.77]}
+\newcommand{\RegimeNoiseHomoRatioHi}{0.77}
+\newcommand{\RegimeNoiseHomoRatioLo}{0.71}
+\newcommand{\RegimeNoiseHomoRatioN}{24}
+\newcommand{\RegimeNoiseHomoRatio}{0.74}
+\newcommand{\RegimeNoiseWideRatioCI}{[0.65, 0.70]}
+\newcommand{\RegimeNoiseWideRatioHi}{0.70}
+\newcommand{\RegimeNoiseWideRatioLo}{0.65}
+\newcommand{\RegimeNoiseWideRatioN}{24}
+\newcommand{\RegimeNoiseWideRatio}{0.68}
+\newcommand{\RegimeOutHullRatioCI}{[0.68, 0.70]}
+\newcommand{\RegimeOutHullRatioHi}{0.70}
+\newcommand{\RegimeOutHullRatioLo}{0.68}
+\newcommand{\RegimeOutHullRatioN}{119}
+\newcommand{\RegimeOutHullRatio}{0.69}
+\newcommand{\RegimeRecoveredCI}{[72\%, 75\%]}
+\newcommand{\RegimeRecoveredHi}{75\%}
+\newcommand{\RegimeRecoveredLo}{72\%}
+\newcommand{\RegimeRecoveredN}{1248}
+\newcommand{\RegimeRecovered}{73\%}
+\newcommand{\RegimeSpearman}{-0.85}
+\newcommand{\RelGncKOneCI}{[1.04, 1.46]}
+\newcommand{\RelGncKOneHi}{1.46}
+\newcommand{\RelGncKOneLo}{1.04}
+\newcommand{\RelGncKOneN}{8}
+\newcommand{\RelGncKOne}{1.23}
+\newcommand{\RelGncKTwoCI}{[1.37, 2.12]}
+\newcommand{\RelGncKTwoHi}{2.12}
+\newcommand{\RelGncKTwoLo}{1.37}
+\newcommand{\RelGncKTwoN}{8}
+\newcommand{\RelGncKTwo}{1.69}
+\newcommand{\RelHuberKOneCI}{[0.91, 1.26]}
+\newcommand{\RelHuberKOneHi}{1.26}
+\newcommand{\RelHuberKOneLo}{0.91}
+\newcommand{\RelHuberKOneN}{8}
+\newcommand{\RelHuberKOne}{1.07}
+\newcommand{\RelHuberKTwoCI}{[1.02, 1.28]}
+\newcommand{\RelHuberKTwoHi}{1.28}
+\newcommand{\RelHuberKTwoLo}{1.02}
+\newcommand{\RelHuberKTwoN}{8}
+\newcommand{\RelHuberKTwo}{1.16}
+\newcommand{\RelLsKOneCI}{[0.70, 0.86]}
+\newcommand{\RelLsKOneHi}{0.86}
+\newcommand{\RelLsKOneLo}{0.70}
+\newcommand{\RelLsKOneN}{8}
+\newcommand{\RelLsKOne}{0.78}
+\newcommand{\RelLsKTwoCI}{[0.80, 0.93]}
+\newcommand{\RelLsKTwoHi}{0.93}
+\newcommand{\RelLsKTwoLo}{0.80}
+\newcommand{\RelLsKTwoN}{8}
+\newcommand{\RelLsKTwo}{0.87}
+\newcommand{\RelRansacKOneCI}{[1.31, 1.93]}
+\newcommand{\RelRansacKOneHi}{1.93}
+\newcommand{\RelRansacKOneLo}{1.31}
+\newcommand{\RelRansacKOneN}{8}
+\newcommand{\RelRansacKOne}{1.62}
+\newcommand{\RelRansacKTwoCI}{[1.83, 2.48]}
+\newcommand{\RelRansacKTwoHi}{2.48}
+\newcommand{\RelRansacKTwoLo}{1.83}
+\newcommand{\RelRansacKTwoN}{8}
+\newcommand{\RelRansacKTwo}{2.14}
+\newcommand{\RelTmrTenKOneCI}{[0.59, 0.69]}
+\newcommand{\RelTmrTenKOneHi}{0.69}
+\newcommand{\RelTmrTenKOneLo}{0.59}
+\newcommand{\RelTmrTenKOneN}{8}
+\newcommand{\RelTmrTenKOne}{0.64}
+\newcommand{\RelTmrTenKTwoCI}{[0.74, 0.84]}
+\newcommand{\RelTmrTenKTwoHi}{0.84}
+\newcommand{\RelTmrTenKTwoLo}{0.74}
+\newcommand{\RelTmrTenKTwoN}{8}
+\newcommand{\RelTmrTenKTwo}{0.79}
+\newcommand{\RelTmrTwentyKOneCI}{[0.53, 0.66]}
+\newcommand{\RelTmrTwentyKOneHi}{0.66}
+\newcommand{\RelTmrTwentyKOneLo}{0.53}
+\newcommand{\RelTmrTwentyKOneN}{8}
+\newcommand{\RelTmrTwentyKOne}{0.60}
+\newcommand{\RelTmrTwentyKTwoCI}{[0.69, 0.82]}
+\newcommand{\RelTmrTwentyKTwoHi}{0.82}
+\newcommand{\RelTmrTwentyKTwoLo}{0.69}
+\newcommand{\RelTmrTwentyKTwoN}{8}
+\newcommand{\RelTmrTwentyKTwo}{0.76}
+\newcommand{\ScalarSlackMax}{9.3\times 10^{-8}}
+\newcommand{\ScaleNFiveKOneCI}{[0.72, 0.83]}
+\newcommand{\ScaleNFiveKOneHi}{0.83}
+\newcommand{\ScaleNFiveKOneLo}{0.72}
+\newcommand{\ScaleNFiveKOneN}{12}
+\newcommand{\ScaleNFiveKOne}{0.78}
+\newcommand{\ScaleNFiveKTwoCI}{[0.85, 0.91]}
+\newcommand{\ScaleNFiveKTwoHi}{0.91}
+\newcommand{\ScaleNFiveKTwoLo}{0.85}
+\newcommand{\ScaleNFiveKTwoN}{12}
+\newcommand{\ScaleNFiveKTwo}{0.87}
+\newcommand{\ScaleNFortyKOneCI}{[0.38, 0.49]}
+\newcommand{\ScaleNFortyKOneHi}{0.49}
+\newcommand{\ScaleNFortyKOneLo}{0.38}
+\newcommand{\ScaleNFortyKOneN}{12}
+\newcommand{\ScaleNFortyKOne}{0.46}
+\newcommand{\ScaleNFortyKTwoCI}{[0.50, 0.56]}
+\newcommand{\ScaleNFortyKTwoHi}{0.56}
+\newcommand{\ScaleNFortyKTwoLo}{0.50}
+\newcommand{\ScaleNFortyKTwoN}{12}
+\newcommand{\ScaleNFortyKTwo}{0.53}
+\newcommand{\ScaleNMax}{40}
+\newcommand{\ScaleNMin}{5}
+\newcommand{\ScaleNNineKOneCI}{[0.61, 0.69]}
+\newcommand{\ScaleNNineKOneHi}{0.69}
+\newcommand{\ScaleNNineKOneLo}{0.61}
+\newcommand{\ScaleNNineKOneN}{12}
+\newcommand{\ScaleNNineKOne}{0.65}
+\newcommand{\ScaleNNineKTwoCI}{[0.71, 0.76]}
+\newcommand{\ScaleNNineKTwoHi}{0.76}
+\newcommand{\ScaleNNineKTwoLo}{0.71}
+\newcommand{\ScaleNNineKTwoN}{12}
+\newcommand{\ScaleNNineKTwo}{0.73}
+\newcommand{\ScaleNTwentyKOneCI}{[0.46, 0.59]}
+\newcommand{\ScaleNTwentyKOneHi}{0.59}
+\newcommand{\ScaleNTwentyKOneLo}{0.46}
+\newcommand{\ScaleNTwentyKOneN}{12}
+\newcommand{\ScaleNTwentyKOne}{0.53}
+\newcommand{\ScaleNTwentyKTwoCI}{[0.56, 0.66]}
+\newcommand{\ScaleNTwentyKTwoHi}{0.66}
+\newcommand{\ScaleNTwentyKTwoLo}{0.56}
+\newcommand{\ScaleNTwentyKTwoN}{12}
+\newcommand{\ScaleNTwentyKTwo}{0.63}
+\newcommand{\ScaleRedNFiveCI}{[17\%, 28\%]}
+\newcommand{\ScaleRedNFiveHi}{28\%}
+\newcommand{\ScaleRedNFiveLo}{17\%}
+\newcommand{\ScaleRedNFiveN}{12}
+\newcommand{\ScaleRedNFive}{22\%}
+\newcommand{\ScaleRedNFortyCI}{[51\%, 62\%]}
+\newcommand{\ScaleRedNFortyHi}{62\%}
+\newcommand{\ScaleRedNFortyLo}{51\%}
+\newcommand{\ScaleRedNFortyN}{12}
+\newcommand{\ScaleRedNForty}{54\%}
+\newcommand{\ScaleSolveMax}{4.6}
+\newcommand{\SigCostDEightCI}{[1.31, 1.96]}
+\newcommand{\SigCostDEightHi}{1.96}
+\newcommand{\SigCostDEightLo}{1.31}
+\newcommand{\SigCostDEightN}{24}
+\newcommand{\SigCostDEight}{1.73}
+\newcommand{\SigCostDFourCI}{[1.17, 1.37]}
+\newcommand{\SigCostDFourHi}{1.37}
+\newcommand{\SigCostDFourLo}{1.17}
+\newcommand{\SigCostDFourN}{24}
+\newcommand{\SigCostDFour}{1.28}
+\newcommand{\SigCostDTwelveCI}{[1.88, 2.40]}
+\newcommand{\SigCostDTwelveHi}{2.40}
+\newcommand{\SigCostDTwelveLo}{1.88}
+\newcommand{\SigCostDTwelveN}{24}
+\newcommand{\SigCostDTwelve}{2.32}
+\newcommand{\SigCostDZeroCI}{[1.00, 1.00]}
+\newcommand{\SigCostDZeroHi}{1.00}
+\newcommand{\SigCostDZeroLo}{1.00}
+\newcommand{\SigCostDZeroN}{24}
+\newcommand{\SigCostDZero}{1.00}
+\newcommand{\SigDeltaMax}{1.2}
+\newcommand{\SigRiskDEightCI}{[0.66, 0.71]}
+\newcommand{\SigRiskDEightHi}{0.71}
+\newcommand{\SigRiskDEightLo}{0.66}
+\newcommand{\SigRiskDEightN}{24}
+\newcommand{\SigRiskDEight}{0.69}
+\newcommand{\SigRiskDFourCI}{[0.61, 0.69]}
+\newcommand{\SigRiskDFourHi}{0.69}
+\newcommand{\SigRiskDFourLo}{0.61}
+\newcommand{\SigRiskDFourN}{24}
+\newcommand{\SigRiskDFour}{0.64}
+\newcommand{\SigRiskDTwelveCI}{[0.68, 0.76]}
+\newcommand{\SigRiskDTwelveHi}{0.76}
+\newcommand{\SigRiskDTwelveLo}{0.68}
+\newcommand{\SigRiskDTwelveN}{24}
+\newcommand{\SigRiskDTwelve}{0.72}
+\newcommand{\SigRiskDZeroCI}{[0.66, 0.71]}
+\newcommand{\SigRiskDZeroHi}{0.71}
+\newcommand{\SigRiskDZeroLo}{0.66}
+\newcommand{\SigRiskDZeroN}{24}
+\newcommand{\SigRiskDZero}{0.67}
+\newcommand{\SigRiskRange}{0.64\mbox{--}0.72}
+\newcommand{\SigVarDEightCI}{[0.81, 0.89]}
+\newcommand{\SigVarDEightHi}{0.89}
+\newcommand{\SigVarDEightLo}{0.81}
+\newcommand{\SigVarDEightN}{24}
+\newcommand{\SigVarDEight}{0.85}
+\newcommand{\SigVarDFourCI}{[0.87, 1.00]}
+\newcommand{\SigVarDFourHi}{1.00}
+\newcommand{\SigVarDFourLo}{0.87}
+\newcommand{\SigVarDFourN}{24}
+\newcommand{\SigVarDFour}{0.95}
+\newcommand{\SigVarDTwelveCI}{[0.84, 0.91]}
+\newcommand{\SigVarDTwelveHi}{0.91}
+\newcommand{\SigVarDTwelveLo}{0.84}
+\newcommand{\SigVarDTwelveN}{24}
+\newcommand{\SigVarDTwelve}{0.85}
+\newcommand{\SigVarDZeroCI}{[1.10, 1.10]}
+\newcommand{\SigVarDZeroHi}{1.10}
+\newcommand{\SigVarDZeroLo}{1.10}
+\newcommand{\SigVarDZeroN}{24}
+\newcommand{\SigVarDZero}{1.10}
+\newcommand{\SigWinDEightCI}{[79\%, 100\%]}
+\newcommand{\SigWinDEightHi}{100\%}
+\newcommand{\SigWinDEightLo}{79\%}
+\newcommand{\SigWinDEightN}{24}
+\newcommand{\SigWinDEight}{92\%}
+\newcommand{\SigWinDFourCI}{[54\%, 88\%]}
+\newcommand{\SigWinDFourHi}{88\%}
+\newcommand{\SigWinDFourLo}{54\%}
+\newcommand{\SigWinDFourN}{24}
+\newcommand{\SigWinDFour}{71\%}
+\newcommand{\SigWinDTwelveCI}{[79\%, 100\%]}
+\newcommand{\SigWinDTwelveHi}{100\%}
+\newcommand{\SigWinDTwelveLo}{79\%}
+\newcommand{\SigWinDTwelveN}{24}
+\newcommand{\SigWinDTwelve}{92\%}
+\newcommand{\SigWinDZeroCI}{[0\%, 0\%]}
+\newcommand{\SigWinDZeroHi}{0\%}
+\newcommand{\SigWinDZeroLo}{0\%}
+\newcommand{\SigWinDZeroN}{24}
+\newcommand{\SigWinDZero}{0\%}
+\newcommand{\VarInfKOneCI}{[1.60, 1.80]}
+\newcommand{\VarInfKOneHi}{1.80}
+\newcommand{\VarInfKOneLo}{1.60}
+\newcommand{\VarInfKOneN}{360}
+\newcommand{\VarInfKOne}{1.70}
+\newcommand{\VarInfKTwoCI}{[1.56, 1.75]}
+\newcommand{\VarInfKTwoHi}{1.75}
+\newcommand{\VarInfKTwoLo}{1.56}
+\newcommand{\VarInfKTwoN}{360}
+\newcommand{\VarInfKTwo}{1.65}
+\newcommand{\VerifDual}{1.9\times 10^{-3}}
+\newcommand{\VerifExact}{3.4\times 10^{-14}}
+\newcommand{\VerifLemma}{1.1\times 10^{-11}}
+\newcommand{\VerifPassed}{20}
+\newcommand{\VerifSdp}{1.0\times 10^{-3}}
+\newcommand{\VerifSparse}{2.3\times 10^{-10}}
+\newcommand{\VerifTotal}{20}
+\newcommand{\VertGlsKOneRange}{0.72\mbox{--}0.77}
+\newcommand{\VertGlsKOne}{0.75}
+\newcommand{\VertGlsKTwoRange}{1.23\mbox{--}1.27}
+\newcommand{\VertGlsKTwo}{1.25}
+\newcommand{\VertHuberKOneRange}{0.50\mbox{--}0.86}
+\newcommand{\VertHuberKOne}{0.69}
+\newcommand{\VertHuberKTwoRange}{1.22\mbox{--}1.52}
+\newcommand{\VertHuberKTwo}{1.36}
+\newcommand{\VertLeverArm}{66}
+\newcommand{\VertNLandmarks}{9}
+\newcommand{\VertNUnits}{4}
+\newcommand{\VertRansacKOneRange}{0.67\mbox{--}0.87}
+\newcommand{\VertRansacKOne}{0.77}
+\newcommand{\VertRansacKTwoRange}{1.83\mbox{--}2.34}
+\newcommand{\VertRansacKTwo}{2.03}
+\newcommand{\VertRedHuberKOneRange}{-14\%\mbox{--}30\%}
+\newcommand{\VertRedHuberKOne}{7\%}
+\newcommand{\VertRedHuberKTwoRange}{-19\%\mbox{--}1\%}
+\newcommand{\VertRedHuberKTwo}{-9\%}
+\newcommand{\VertRedRansacKOneRange}{-13\%\mbox{--}7\%}
+\newcommand{\VertRedRansacKOne}{-2\%}
+\newcommand{\VertRedRansacKTwoRange}{-84\%\mbox{--}-49\%}
+\newcommand{\VertRedRansacKTwo}{-63\%}
+\newcommand{\VertRedTmrTenKOneRange}{36\%\mbox{--}38\%}
+\newcommand{\VertRedTmrTenKOne}{37\%}
+\newcommand{\VertRedTmrTenKTwoRange}{26\%\mbox{--}27\%}
+\newcommand{\VertRedTmrTenKTwo}{27\%}
+\newcommand{\VertRedTmrTwentyKOneRange}{40\%\mbox{--}41\%}
+\newcommand{\VertRedTmrTwentyKOne}{40\%}
+\newcommand{\VertRedTmrTwentyKTwoRange}{29\%\mbox{--}30\%}
+\newcommand{\VertRedTmrTwentyKTwo}{30\%}
+\newcommand{\VertRelHuberKOneRange}{0.70\mbox{--}1.14}
+\newcommand{\VertRelHuberKOne}{0.93}
+\newcommand{\VertRelHuberKTwoRange}{0.99\mbox{--}1.19}
+\newcommand{\VertRelHuberKTwo}{1.09}
+\newcommand{\VertRelRansacKOneRange}{0.93\mbox{--}1.13}
+\newcommand{\VertRelRansacKOne}{1.02}
+\newcommand{\VertRelRansacKTwoRange}{1.49\mbox{--}1.84}
+\newcommand{\VertRelRansacKTwo}{1.63}
+\newcommand{\VertRelTmrTenKOneRange}{0.62\mbox{--}0.64}
+\newcommand{\VertRelTmrTenKOne}{0.63}
+\newcommand{\VertRelTmrTenKTwoRange}{0.73\mbox{--}0.74}
+\newcommand{\VertRelTmrTenKTwo}{0.73}
+\newcommand{\VertRelTmrTwentyKOneRange}{0.59\mbox{--}0.60}
+\newcommand{\VertRelTmrTwentyKOne}{0.60}
+\newcommand{\VertRelTmrTwentyKTwoRange}{0.70\mbox{--}0.71}
+\newcommand{\VertRelTmrTwentyKTwo}{0.70}
+\newcommand{\VertScrewLen}{62}
+\newcommand{\VertTmrTenKOneRange}{0.46\mbox{--}0.48}
+\newcommand{\VertTmrTenKOne}{0.47}
+\newcommand{\VertTmrTenKTwoRange}{0.90\mbox{--}0.93}
+\newcommand{\VertTmrTenKTwo}{0.91}
+\newcommand{\VertTmrTwentyKOneRange}{0.43\mbox{--}0.45}
+\newcommand{\VertTmrTwentyKOne}{0.44}
+\newcommand{\VertTmrTwentyKTwoRange}{0.86\mbox{--}0.90}
+\newcommand{\VertTmrTwentyKTwo}{0.88}
+\newcommand{\VertTrajGlsKOne}{0.75}
+\newcommand{\VertTrajGlsKTwo}{1.25}
+\newcommand{\VertTrajRedKOneRange}{35\%\mbox{--}37\%}
+\newcommand{\VertTrajRedKOne}{36\%}
+\newcommand{\VertTrajRedKTwoRange}{26\%\mbox{--}27\%}
+\newcommand{\VertTrajRedKTwo}{26\%}
+\newcommand{\VertTrajTmrKOne}{0.48}
+\newcommand{\VertTrajTmrKTwo}{0.92}
+\newcommand{\WsDesignREightyCI}{[0.67, 0.74]}
+\newcommand{\WsDesignREightyHi}{0.74}
+\newcommand{\WsDesignREightyLo}{0.67}
+\newcommand{\WsDesignREightyN}{16}
+\newcommand{\WsDesignREighty}{0.69}
+\newcommand{\WsDesignRFortyCI}{[0.65, 0.76]}
+\newcommand{\WsDesignRFortyHi}{0.76}
+\newcommand{\WsDesignRFortyLo}{0.65}
+\newcommand{\WsDesignRFortyN}{16}
+\newcommand{\WsDesignRForty}{0.67}
+\newcommand{\WsDesignRZeroCI}{[0.65, 0.76]}
+\newcommand{\WsDesignRZeroHi}{0.76}
+\newcommand{\WsDesignRZeroLo}{0.65}
+\newcommand{\WsDesignRZeroN}{16}
+\newcommand{\WsDesignRZero}{0.70}
+\newcommand{\WsMaxRadius}{80}
+\newcommand{\WsNTargets}{9}
+\newcommand{\WsPenaltyREightyCI}{[1.15, 1.24]}
+\newcommand{\WsPenaltyREightyHi}{1.24}
+\newcommand{\WsPenaltyREightyLo}{1.15}
+\newcommand{\WsPenaltyREightyN}{16}
+\newcommand{\WsPenaltyREighty}{1.20}
+\newcommand{\WsPenaltyRFortyCI}{[1.08, 1.19]}
+\newcommand{\WsPenaltyRFortyHi}{1.19}
+\newcommand{\WsPenaltyRFortyLo}{1.08}
+\newcommand{\WsPenaltyRFortyN}{16}
+\newcommand{\WsPenaltyRForty}{1.14}
+\newcommand{\WsPenaltyRZeroCI}{[1.00, 1.00]}
+\newcommand{\WsPenaltyRZeroHi}{1.00}
+\newcommand{\WsPenaltyRZeroLo}{1.00}
+\newcommand{\WsPenaltyRZeroN}{16}
+\newcommand{\WsPenaltyRZero}{1.00}
+\newcommand{\WsPointREightyCI}{[0.79, 0.90]}
+\newcommand{\WsPointREightyHi}{0.90}
+\newcommand{\WsPointREightyLo}{0.79}
+\newcommand{\WsPointREightyN}{16}
+\newcommand{\WsPointREighty}{0.84}
+\newcommand{\WsPointRFortyCI}{[0.75, 0.84]}
+\newcommand{\WsPointRFortyHi}{0.84}
+\newcommand{\WsPointRFortyLo}{0.75}
+\newcommand{\WsPointRFortyN}{16}
+\newcommand{\WsPointRForty}{0.78}
+\newcommand{\WsPointRZeroCI}{[0.65, 0.74]}
+\newcommand{\WsPointRZeroHi}{0.74}
+\newcommand{\WsPointRZeroLo}{0.65}
+\newcommand{\WsPointRZeroN}{16}
+\newcommand{\WsPointRZero}{0.70}
+\newcommand{\WsRange}{0.67\mbox{--}0.70}

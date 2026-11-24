@@ -1,0 +1,31 @@
+\begin{table}[h]
+\centering\small
+\caption{Numerical verification of every claim. Each row is an independent check; details give the worst deviation observed.}
+\label{tab:verification}
+\begin{tabular}{@{}p{0.40\textwidth} l p{0.34\textwidth}@{}}
+\toprule
+Claim & Status & Worst observed deviation \\
+\midrule
+T0 fiducial/target Jacobian (central differences) & pass & max relative error 1.78e-11 \\
+L1 influence-reduction lemma (both directions) & pass & max residual 1.09e-11 \\
+T2 exact k-sparse risk identity & pass & max relative disagreement vs. brute force 2.32e-10 \\
+T2a k=1 reduces to max block spectral norm & pass & max absolute disagreement 1.33e-15 \\
+T3 monotonicity and top-k sandwich bounds & pass & upper bound tightness ratio in [1.000, 1.358] \\
+P4a Gauss-Markov optimality of M\_GLS under M A = G & pass & no random feasible point achieved lower variance \\
+P4 eta = 0 recovers Gauss-Markov exactly & pass & max relative deviation from M\_GLS 3.90e-05 \\
+T5 cutting-plane SOCP == direct SDP for k=1 & pass & max relative value gap 1.02e-03 \\
+T6 strong duality (nuclear-norm dual) for k=1 & pass & max relative primal-dual gap 1.88e-03 \\
+T7 estimator-independent lower bound holds & pass & achieved/bound ratio in [1.27, 3.70] \\
+P8 invariance to origin choice and frame rotation & pass & max relative change in optimal risk 2.70e-04 \\
+P9 exact recovery of the noiseless clean transform & pass & max target error 3.35e-14 mm \\
+P10 linearisation remainder is O(rho\textasciicircum{}2) & pass & log-log slope 1.001 (1.0 expected); median error 4.6e-03 at rho = 0.5 mm \\
+T8 average-case risk closed form & pass & max relative disagreement vs. Monte Carlo 9.60e-03 \\
+T9 average-case design collapses to Gauss-Markov & pass & max relative deviation from M\_GLS 5.49e-16 \\
+T10 nu\_k unit ball is conv A(k,1) & pass & largest excess of a nu\_k-feasible point over R\_k 0.00e+00 \\
+T11 scalar-loss limit is attained exactly & pass & max relative gap between design and limit 8.29e-08 \\
+T12 ell-infinity target loss: limit attained & pass & max relative gap 1.35e-08 \\
+T13 tightened limit dominates the counting bound & pass & slack: new 1.000-1.004 vs old 1.51-2.64 \\
+T14 complementary slackness equalises the active set & pass & max relative spread on the active set 9.4e-04; inactive blocks never exceed it \\
+\bottomrule
+\end{tabular}
+\end{table}

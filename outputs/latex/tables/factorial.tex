@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Worst-case target displacement relative to Gauss--Markov, at a common $10\%$ clean-variance budget (median over geometries with $95\%$ bootstrap intervals; the vertebra columns are two sides of one anatomy and carry none; lower is better). Under homoscedastic noise the average-case column cannot move off Gauss--Markov at all, exactly as the average-case collapse predicts.}
+\label{tab:factorial}
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}lcccccc@{}}
+\toprule
+& \multicolumn{2}{c}{random} & \multicolumn{2}{c}{random, homoscedastic} & \multicolumn{2}{c}{{L1} vertebra} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Design & $k=1$ & $k=2$ & $k=1$ & $k=2$ & $k=1$ & $k=2$ \\
+\midrule
+Gauss--Markov (reference) & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+learned weighting (population optimum) & 0.786\,{\tiny[0.75,0.82]} & 0.858\,{\tiny[0.84,0.88]} & 1.000 & 1.000 & 0.820 & 0.872 \\
+average-case influence design & 0.782\,{\tiny[0.74,0.82]} & 0.849\,{\tiny[0.84,0.87]} & 1.000 & 1.000 & 0.758 & 0.850 \\
+TMR restricted to scalar weights & 0.698\,{\tiny[0.68,0.73]} & 0.807\,{\tiny[0.79,0.82]} & 0.814\,{\tiny[0.79,0.83]} & 0.891\,{\tiny[0.88,0.92]} & 0.676 & 0.787 \\
+\textbf{TMR (this paper)} & 0.648\,{\tiny[0.63,0.66]} & 0.775\,{\tiny[0.76,0.78]} & 0.755\,{\tiny[0.74,0.78]} & 0.843\,{\tiny[0.83,0.86]} & 0.627 & 0.726 \\
+\bottomrule
+\end{tabular}}
+\end{table}

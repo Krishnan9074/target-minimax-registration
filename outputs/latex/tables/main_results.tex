@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Random geometries ($n=7$, heteroscedastic $\sigma \approx 0.35$~mm), every estimator attacked directly as a black box. Adversarial columns are the worst-case target displacement per millimetre of corruption budget, averaged over $\rho\in\{0.5,1,2\}$~mm and 8 geometries, with $95\%$ bootstrap intervals over geometries; lower is better in every column.}
+\label{tab:main}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& \multicolumn{2}{c}{$k=1$} & \multicolumn{2}{c}{$k=2$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Estimator & clean RMSE (mm) & adv./$\rho$ & clean RMSE (mm) & adv./$\rho$ \\
+\midrule
+Unweighted LS (Kabsch) & 0.476 & 0.579\,{\tiny[0.54,0.64]} & 0.476 & 1.002\,{\tiny[0.95,1.08]} \\
+Gauss--Markov (GLS) & 0.424 & 0.761\,{\tiny[0.67,0.85]} & 0.424 & 1.164\,{\tiny[1.07,1.27]} \\
+Huber IRLS & 0.471 & 0.786\,{\tiny[0.74,0.84]} & 0.471 & 1.320\,{\tiny[1.24,1.39]} \\
+RANSAC & 0.523 & 1.204\,{\tiny[0.99,1.42]} & 0.523 & 2.489\,{\tiny[2.08,2.99]} \\
+GNC-TLS (TEASER core) & 0.493 & 0.911\,{\tiny[0.81,1.02]} & 0.493 & 1.945\,{\tiny[1.57,2.38]} \\
+\midrule
+\textbf{TMR ($\eta=0.05$)} & 0.438 & 0.538\,{\tiny[0.49,0.58]} & 0.438 & 0.959\,{\tiny[0.89,1.03]} \\
+\textbf{TMR ($\eta=0.10$)} & 0.450 & 0.482\,{\tiny[0.45,0.52]} & 0.450 & 0.914\,{\tiny[0.85,0.99]} \\
+\textbf{TMR ($\eta=0.20$)} & 0.470 & 0.444\,{\tiny[0.41,0.49]} & 0.469 & 0.873\,{\tiny[0.81,0.96]} \\
+\bottomrule
+\end{tabular}
+\end{table}
